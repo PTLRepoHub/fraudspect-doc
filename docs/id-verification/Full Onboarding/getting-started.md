@@ -1,10 +1,10 @@
 ---
-title: Full Onboarding
+title: Getting Started
 description: Real life examples of how to use our SDK's.
 keywords:
  - fraudspect
-slug: full-onboarding
-sidebar_position: 2
+slug: getting-started
+sidebar_position: 1
 ---
 
 

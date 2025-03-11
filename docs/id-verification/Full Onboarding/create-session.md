@@ -1,6 +1,6 @@
 ---
 title: Create Session
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 ## Create a new enrolment session 
