@@ -5,7 +5,7 @@ slug: /
 
 # Introduction
 
-The purpose of this document is to help our customers and partners integrate with Finchecker Identity API Cloud.
+The purpose of this document is to help our customers and partners integrate with Fraudspect Identity API Cloud.
 
 ## Start #
 
