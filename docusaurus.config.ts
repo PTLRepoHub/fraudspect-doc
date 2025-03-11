@@ -41,8 +41,8 @@ const config: Config = {
           routeBasePath: "/", // Set this to "/" so that the docs are served from the root of the domain.
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/PTLRepoHub/fraudspect-doc/tree/main/packages/create-docusaurus/templates/shared/",
+          // editUrl:
+          //   "https://github.com/PTLRepoHub/fraudspect-doc/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
@@ -52,8 +52,8 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/PTLRepoHub/fraudspect-doc/tree/main/packages/create-docusaurus/templates/shared/",
+          // editUrl:
+          //   "https://github.com/PTLRepoHub/fraudspect-doc/tree/main/packages/create-docusaurus/templates/shared/",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -67,12 +67,12 @@ const config: Config = {
   ],
 
   themeConfig: {
-    docs: {
-      sidebar: {
-        hideable: false,
-        autoCollapseCategories: false,
-      },
-    },
+    // docs: {
+    //   sidebar: {
+    //     hideable: false,
+    //     autoCollapseCategories: false,
+    //   },
+    // },
     // Replace with your project's social card
     image: "https://assets.getfraudspect.com/assets/fraudspect.png",
     navbar: {
