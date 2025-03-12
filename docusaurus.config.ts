@@ -81,6 +81,19 @@ const config: Config = {
     image: "https://assets.getfraudspect.com/assets/fraudspect.png",
     navbar: {
       title: "Fraudspect Docs",
+      items: [
+        {
+          // to: "docs/introduction",
+          // Only one of "to" or "href" should be used
+          // href: 'https://www.facebook.com',
+          value: `<a target="_blank" href="https://app.getpostman.com/run-collection/38586059-2010dcdb-b0e1-4e95-8d22-27c33a2fc16c?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D38586059-2010dcdb-b0e1-4e95-8d22-27c33a2fc16c%26entityType%3Dcollection%26workspaceId%3Df97f23f4-71ff-4d6b-b944-e40a565bd444"><img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;"></a>`,
+          // Only one of "label" or "html" should be used
+          // html: '<b>Introduction</b>'
+          type: "html",
+          position: "right",
+          // target: "_blank",
+        },
+      ],
     },
     prism: {
       darkTheme: prismThemes.dracula,
