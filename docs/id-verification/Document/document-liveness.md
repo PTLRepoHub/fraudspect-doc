@@ -25,17 +25,9 @@ Passive liveness detection enhances security for person and/or document authenti
 
 To perform a document liveness check.
 
-This API currently supports basic authentication. All endpoints require an Authentication header in the following form:
-
-```
-Authorization: 'Basic ' + Base64.encode(username + ':' + password)
-```
-
 Send a HTTP POST request to:
 
-```
-/api/v1/document/liveness
-```
+- `/api/v1/id-verifications/document/liveness`
 
 The following parameters are used for requests and responses:
 

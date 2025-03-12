@@ -67,12 +67,16 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // docs: {
-    //   sidebar: {
-    //     hideable: false,
-    //     autoCollapseCategories: false,
-    //   },
-    // },
+    colorMode: {
+      defaultMode: "dark",
+      // respectPrefersColorScheme: true,
+    },
+    docs: {
+      sidebar: {
+        hideable: false,
+        autoCollapseCategories: false,
+      },
+    },
     // Replace with your project's social card
     image: "https://assets.getfraudspect.com/assets/fraudspect.png",
     navbar: {

@@ -17,9 +17,9 @@ It is recommended to keep a 1-minute interval for all status requests.
 --- | ---
 status | transaction status
 
-`/api/v1/data/fa389839-d740-42cc-ab31-f1cc1804992c/status`
+- `/api/v1/id-verifications/data/fa389839-d740-42cc-ab31-f1cc1804992c/status`
 
-### Response
+#### Response
 ```json
 {
   "status": "AUTO_REJECTED"
@@ -28,13 +28,11 @@ status | transaction status
 
 ## Data Retrieval
 
-When the end user completes the enrolment you can request data and status of the enrolment. Request must contain basic auth header with API username and API password:
-
-`Authorization: 'Basic ' + Base64.encode(username + ':' + password)`
+When the end user completes the enrolment you can request data and status of the enrolment. 
 
 Every request except Session List must contain sessionId in URL: `{sessionId}`.
 
-### Use cases
+#### Use cases
 
 **Use case** | **Description** | **Endpoint**
 --- | --- | ---
@@ -47,7 +45,7 @@ Session List | list of all sessions | `GET /session/list/`
 Session Status | current status of the specific session | `GET /{sessionId}/status`
 Data Deletion | delete session with all data | `DELETE /{sessionId}`
 
-## Decision Results
+### Decision Results
 
 To retrieve verification score and trust factors scores. Contains 2 properties:
 
@@ -56,11 +54,11 @@ To retrieve verification score and trust factors scores. Contains 2 properties:
 verifications | List of Trust Factors scores (each contains score/level pair)
 decision | Main output of whole process, contains score/level pair
 
-`/api/v1/data/fa389839-d740-42cc-ab31-f1cc1804992c/decision/results`
+- `/api/v1/id-verifications/data/fa389839-d740-42cc-ab31-f1cc1804992c/decision/results`
 
 Interpretation of these properties is described in Trust Factors section.
 
-### Response
+#### Response
 ```json
 {
   "verifications": {
@@ -116,7 +114,7 @@ Interpretation of these properties is described in Trust Factors section.
 }
 ```
 
-## Document Result
+### Document Result
 
 To retrieve document OCR results & MRZ data:
 
@@ -135,9 +133,9 @@ documentReleaseYear | denotes the year in which the particular model of the iden
 documentType | document type, PASSPORT, DRIVER_LICENSE etc.
 documentVisualResults | represents the visual attributes of an identification document. This includes data like document number, sex and other visual elements that are essential for verifying the authenticity of the document.
 
-`/api/v1/data/fa389839-d740-42cc-ab31-f1cc1804992c/document/result`
+- `/api/v1/id-verifications/data/fa389839-d740-42cc-ab31-f1cc1804992c/document/result`
 
-### Response
+#### Response
 ```json
 {
   "country": "SVK",
@@ -321,7 +319,7 @@ documentVisualResults | represents the visual attributes of an identification do
 }
 ```
 
-## Face Result
+### Face Result
 
 To retrieve face (selfie) properties.
 
@@ -331,9 +329,9 @@ passiveLivenessScore | the face attribute for evaluating the passive liveness sc
 verificationScore | result of document image and selfie comparison within the interval [0;100]. Values between 0 and 50 indicate ‘no match’, values over 50 indicate ‘match’
 availableImages | list of face images
 
-`/api/v1/data/fa389839-d740-42cc-ab31-f1cc1804992c/face/result`
+`/api/v1/id-verifications/data/fa389839-d740-42cc-ab31-f1cc1804992c/face/result`
 
-### Response
+#### Response
 ```json
 {
   "age": 34,
@@ -346,18 +344,18 @@ availableImages | list of face images
 }
 ```
 
-## Images
+### Images
 
 Retrieve list of available images taken during onboarding process.
 
-`/api/v1/data/fa389839-d740-42cc-ab31-f1cc1804992c/images`
+- `/api/v1/id-verifications/data/fa389839-d740-42cc-ab31-f1cc1804992c/images`
 
 **Properties** | **Description**
 --- | ---
 document | list of document images, usually contains images of the whole document, face image; sometimes additional images like signature, QR code, etc.
 face | list of face images, usually contains original and cropped images
 
-### Response
+#### Response
 ```json
 {
   "document": [
@@ -371,11 +369,11 @@ face | list of face images, usually contains original and cropped images
 }
 ```
 
-## Image Download
+### Image Download
 
 Download a specific image taken during onboarding process and available as a line in Images endpoint.
 
-`/api/v1/data/fa389839-d740-42cc-ab31-f1cc1804992c/images/primary_face`
+- `/api/v1/id-verifications/data/fa389839-d740-42cc-ab31-f1cc1804992c/images/primary_face`
 
 In response, content type will be image/jpeg:
 
@@ -384,7 +382,7 @@ content-length: 61505
 content-type: image/jpeg
 ```
 
-## Session List
+### Session List
 
 To retrieve a list of all sessions. Contains the following input parameters:
 
@@ -402,9 +400,9 @@ data/verificationStatus | verification status
 data/completedDateUtc | session completion date, UTC format
 data/country | document country code, ISO 3166 Alpha-3 country code
 
-`/api/v1/data/session/list`
+- `/api/v1/id-verifications/data/session/list`
 
-### Response
+#### Response
 ```json
 {
   "pageNumber": 1,
@@ -428,13 +426,12 @@ data/country | document country code, ISO 3166 Alpha-3 country code
 
 Delete onboarding data belonging to you. This endpoint removes all person data including photos (document, face), parsed document information, trust factors, scores etc.
 
-The API currently supports basic authentication. All endpoints require an Authentication header in the following form:
+The API currently supports basic authentication.
 
-`Authorization: 'Basic ' + Base64.encode(username + ':' + password)`
 
 Send an HTTP DELETE request to:
 
-`/api/v1/data/fa389839-d740-42cc-ab31-f1cc1804992c`
+- `/api/v1/id-verifications/data/fa389839-d740-42cc-ab31-f1cc1804992c`
 
 No input properties for this endpoint.
 
