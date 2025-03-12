@@ -11,7 +11,7 @@ To perform a face identification check and create a new enrolment if a duplicate
 
 Send a HTTP POST request to:
 
-- `/api/v1/id-verifications/face/basic/identity`
+- `/api/v1/id-verifications/basic/identify/face`
 
 The following parameters are used for requests and responses:
 
