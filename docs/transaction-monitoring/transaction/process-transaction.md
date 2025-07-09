@@ -31,7 +31,7 @@ Note: If a transaction is sent with the same document ID, it will not be recheck
   "customerId": "550", // reference id of the customer
   "amount": 1000,
   "mappedFields": {
-    "transactionSubType": "1", // 0 (Incoming Transaction), 1 (Outgoing transaction)
+    "transactionSubType": "1", // 1 (Incoming Transaction), 0 (Outgoing transaction)
     "merchantId": "12345",
     "bnfName": "Name Surname",
     "remitterName": "Name Surname",
