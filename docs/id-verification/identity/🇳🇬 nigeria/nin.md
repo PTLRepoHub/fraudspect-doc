@@ -1,6 +1,7 @@
 ---
 title: NIN Verification
 sidebar_position: 5
+
 ---
 
 ## Verify National Identification Number (NIN)
