@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/Document/index",
+  "title": "Document",
+  "description": "",
+  "source": "@site/docs/id-verification/Document/index.mdx",
+  "sourceDirName": "id-verification/Document",
+  "slug": "/id-verification/Document/",
+  "permalink": "/id-verification/Document/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Document",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Results",
+    "permalink": "/id-verification/full-onboarding/results"
+  },
+  "next": {
+    "title": "Document Liveness",
+    "permalink": "/id-verification/Document/document-liveness"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/full-onboarding/index",
+  "title": "Full Onboarding",
+  "description": "",
+  "source": "@site/docs/id-verification/full-onboarding/index.mdx",
+  "sourceDirName": "id-verification/full-onboarding",
+  "slug": "/id-verification/full-onboarding/",
+  "permalink": "/id-verification/full-onboarding/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Full Onboarding",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Id Verification",
+    "permalink": "/id-verification/"
+  },
+  "next": {
+    "title": "Getting Started",
+    "permalink": "/id-verification/full-onboarding/getting-started"
+  }
+}

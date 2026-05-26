@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/full-onboarding/results",
+  "title": "Results",
+  "description": "The output of an API call is provided by our decision engine - an automated evaluation mechanism which helps us reduce the risk of fraud as well as improve customer experience in non-assisted enrollments. There are several logical units of evaluation which need to be considered in terms of decision mechanisms and these units are called Trust Factors.",
+  "source": "@site/docs/id-verification/full-onboarding/results.md",
+  "sourceDirName": "id-verification/full-onboarding",
+  "slug": "/id-verification/full-onboarding/results",
+  "permalink": "/id-verification/full-onboarding/results",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Results",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data",
+    "permalink": "/id-verification/full-onboarding/data"
+  },
+  "next": {
+    "title": "Document",
+    "permalink": "/id-verification/Document/"
+  }
+}

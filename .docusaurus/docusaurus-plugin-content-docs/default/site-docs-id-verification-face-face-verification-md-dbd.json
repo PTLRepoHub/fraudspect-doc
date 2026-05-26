@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/face/face-verification",
+  "title": "Face Verification",
+  "description": "The face verification endpoint is essential for confirming an individual’s presence by matching their live capture against a pre-registered or document-linked photo. This process is integral for verifying identity authenticity, safeguarding against impersonation, and ensuring the person engaging with the service is who they claim to be.",
+  "source": "@site/docs/id-verification/face/face-verification.md",
+  "sourceDirName": "id-verification/face",
+  "slug": "/id-verification/face/face-verification",
+  "permalink": "/id-verification/face/face-verification",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Face Verification",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Face Liveness",
+    "permalink": "/id-verification/face/face-liveness"
+  },
+  "next": {
+    "title": "Face Detect",
+    "permalink": "/id-verification/face/face-detect"
+  }
+}

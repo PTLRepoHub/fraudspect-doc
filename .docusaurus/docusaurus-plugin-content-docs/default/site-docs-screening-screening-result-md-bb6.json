@@ -1,0 +1,27 @@
+{
+  "id": "screening/screening-result",
+  "title": "Get Screening Result",
+  "description": "Get Person Result Details",
+  "source": "@site/docs/screening/screening-result.md",
+  "sourceDirName": "screening",
+  "slug": "/screening/screening-result",
+  "permalink": "/screening/screening-result",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Get Screening Result",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PEP & Sanction Screening",
+    "permalink": "/screening/pep-sanction-screening"
+  },
+  "next": {
+    "title": "Adverse Media",
+    "permalink": "/screening/adverse-media"
+  }
+}

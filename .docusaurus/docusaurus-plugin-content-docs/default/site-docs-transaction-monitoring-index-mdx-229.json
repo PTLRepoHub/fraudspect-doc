@@ -1,0 +1,27 @@
+{
+  "id": "transaction-monitoring/index",
+  "title": "Transaction Monitoring",
+  "description": "",
+  "source": "@site/docs/transaction-monitoring/index.mdx",
+  "sourceDirName": "transaction-monitoring",
+  "slug": "/transaction-monitoring/",
+  "permalink": "/transaction-monitoring/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Transaction Monitoring",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "NIN Verification",
+    "permalink": "/id-verification/identity/🇳🇬 nigeria/nin"
+  },
+  "next": {
+    "title": "Customer",
+    "permalink": "/transaction-monitoring/customer/"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/face/face-detect",
+  "title": "Face Detect",
+  "description": "Detects face and extracts attributes of it.",
+  "source": "@site/docs/id-verification/face/face-detect.md",
+  "sourceDirName": "id-verification/face",
+  "slug": "/id-verification/face/face-detect",
+  "permalink": "/id-verification/face/face-detect",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "Face Detect",
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Face Verification",
+    "permalink": "/id-verification/face/face-verification"
+  },
+  "next": {
+    "title": "Identity Verification",
+    "permalink": "/id-verification/identity/"
+  }
+}

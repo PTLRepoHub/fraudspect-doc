@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇳🇬 nigeria/vnin",
+  "title": "vNIN Verification",
+  "description": "Verify Virtual National Identification Number (vNIN)",
+  "source": "@site/docs/id-verification/identity/🇳🇬 nigeria/vnin.md",
+  "sourceDirName": "id-verification/identity/🇳🇬 nigeria",
+  "slug": "/id-verification/identity/🇳🇬 nigeria/vnin",
+  "permalink": "/id-verification/identity/🇳🇬 nigeria/vnin",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "vNIN Verification",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "BVN Verification",
+    "permalink": "/id-verification/identity/🇳🇬 nigeria/bvn"
+  },
+  "next": {
+    "title": "TIN Verification",
+    "permalink": "/id-verification/identity/🇳🇬 nigeria/tin"
+  }
+}

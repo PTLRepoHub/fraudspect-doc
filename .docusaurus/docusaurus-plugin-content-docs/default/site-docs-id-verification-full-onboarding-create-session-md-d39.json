@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/full-onboarding/create-session",
+  "title": "Create Session",
+  "description": "Create a new enrolment session",
+  "source": "@site/docs/id-verification/full-onboarding/create-session.md",
+  "sourceDirName": "id-verification/full-onboarding",
+  "slug": "/id-verification/full-onboarding/create-session",
+  "permalink": "/id-verification/full-onboarding/create-session",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Create Session",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/id-verification/full-onboarding/getting-started"
+  },
+  "next": {
+    "title": "Enrolment",
+    "permalink": "/id-verification/full-onboarding/enrolment"
+  }
+}

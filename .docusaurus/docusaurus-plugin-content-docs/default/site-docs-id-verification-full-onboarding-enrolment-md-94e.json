@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/full-onboarding/enrolment",
+  "title": "Enrolment",
+  "description": "Redirect to Web Enrolment",
+  "source": "@site/docs/id-verification/full-onboarding/enrolment.md",
+  "sourceDirName": "id-verification/full-onboarding",
+  "slug": "/id-verification/full-onboarding/enrolment",
+  "permalink": "/id-verification/full-onboarding/enrolment",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Enrolment",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create Session",
+    "permalink": "/id-verification/full-onboarding/create-session"
+  },
+  "next": {
+    "title": "Data",
+    "permalink": "/id-verification/full-onboarding/data"
+  }
+}

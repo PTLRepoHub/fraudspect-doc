@@ -1,0 +1,27 @@
+{
+  "id": "transaction-monitoring/transaction/transaction-statuses",
+  "title": "Transaction Statuses",
+  "description": "List of possible transaction statuses and their corresponding ID / ENUMs.",
+  "source": "@site/docs/transaction-monitoring/transaction/transaction-statuses.md",
+  "sourceDirName": "transaction-monitoring/transaction",
+  "slug": "/transaction-monitoring/transaction/transaction-statuses",
+  "permalink": "/transaction-monitoring/transaction/transaction-statuses",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Transaction Statuses",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Get Transaction",
+    "permalink": "/transaction-monitoring/transaction/get-transaction"
+  },
+  "next": {
+    "title": "Screening",
+    "permalink": "/screening/"
+  }
+}

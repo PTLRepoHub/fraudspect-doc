@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/index",
+  "title": "Id Verification",
+  "description": "",
+  "source": "@site/docs/id-verification/index.mdx",
+  "sourceDirName": "id-verification",
+  "slug": "/id-verification/",
+  "permalink": "/id-verification/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Id Verification",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "👋 Introduction",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "Full Onboarding",
+    "permalink": "/id-verification/full-onboarding/"
+  }
+}

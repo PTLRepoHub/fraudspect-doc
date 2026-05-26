@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/Document/document-liveness",
+  "title": "Document Liveness",
+  "description": "Passive liveness detection enhances security for person and/or document authentication solutions. It adds detection and alerting capabilities when a printed photo or digital image or a screenshot from monitor/TV is presented for identity authentication or physical access control workflows.",
+  "source": "@site/docs/id-verification/Document/document-liveness.md",
+  "sourceDirName": "id-verification/Document",
+  "slug": "/id-verification/Document/document-liveness",
+  "permalink": "/id-verification/Document/document-liveness",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Document Liveness",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Document",
+    "permalink": "/id-verification/Document/"
+  },
+  "next": {
+    "title": "Face",
+    "permalink": "/id-verification/face/"
+  }
+}

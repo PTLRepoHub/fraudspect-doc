@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/index",
+  "title": "Identity Verification",
+  "description": "",
+  "source": "@site/docs/id-verification/identity/index.mdx",
+  "sourceDirName": "id-verification/identity",
+  "slug": "/id-verification/identity/",
+  "permalink": "/id-verification/identity/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Identity Verification",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Face Detect",
+    "permalink": "/id-verification/face/face-detect"
+  },
+  "next": {
+    "title": "BVN Verification",
+    "permalink": "/id-verification/identity/🇳🇬 nigeria/bvn"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇳🇬 nigeria/nin",
+  "title": "NIN Verification",
+  "description": "Verify National Identification Number (NIN)",
+  "source": "@site/docs/id-verification/identity/🇳🇬 nigeria/nin.md",
+  "sourceDirName": "id-verification/identity/🇳🇬 nigeria",
+  "slug": "/id-verification/identity/🇳🇬 nigeria/nin",
+  "permalink": "/id-verification/identity/🇳🇬 nigeria/nin",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "NIN Verification",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Business Verification",
+    "permalink": "/id-verification/identity/🇳🇬 nigeria/business-verification"
+  },
+  "next": {
+    "title": "Transaction Monitoring",
+    "permalink": "/transaction-monitoring/"
+  }
+}

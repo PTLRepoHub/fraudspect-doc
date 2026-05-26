@@ -1,0 +1,9 @@
+{
+  "label": "Identity Verification",
+  "position": 5,
+  "collapsed": false,
+  "link": {
+    "type": "doc",
+    "id": "id-verification/identity/index"
+  }
+}

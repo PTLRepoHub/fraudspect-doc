@@ -1,0 +1,27 @@
+{
+  "id": "transaction-monitoring/transaction/rescore-transaction",
+  "title": "Rescore Transaction",
+  "description": "Send Transaction for Processing",
+  "source": "@site/docs/transaction-monitoring/transaction/rescore-transaction.md",
+  "sourceDirName": "transaction-monitoring/transaction",
+  "slug": "/transaction-monitoring/transaction/rescore-transaction",
+  "permalink": "/transaction-monitoring/transaction/rescore-transaction",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Rescore Transaction",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Process Transaction",
+    "permalink": "/transaction-monitoring/transaction/process-transaction"
+  },
+  "next": {
+    "title": "Get Transaction",
+    "permalink": "/transaction-monitoring/transaction/get-transaction"
+  }
+}

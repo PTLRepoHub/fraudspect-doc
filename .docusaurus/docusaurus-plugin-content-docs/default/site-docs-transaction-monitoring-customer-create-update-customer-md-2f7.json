@@ -1,0 +1,27 @@
+{
+  "id": "transaction-monitoring/customer/create-update-customer",
+  "title": "Create/Update Customer",
+  "description": "Create or update customer.",
+  "source": "@site/docs/transaction-monitoring/customer/create-update-customer.md",
+  "sourceDirName": "transaction-monitoring/customer",
+  "slug": "/transaction-monitoring/customer/create-update-customer",
+  "permalink": "/transaction-monitoring/customer/create-update-customer",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Create/Update Customer",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Customer",
+    "permalink": "/transaction-monitoring/customer/"
+  },
+  "next": {
+    "title": "Get Customer",
+    "permalink": "/transaction-monitoring/customer/get-customer"
+  }
+}

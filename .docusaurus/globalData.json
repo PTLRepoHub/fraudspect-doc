@@ -1,0 +1,193 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "id-verification/Document/document-liveness",
+              "path": "/id-verification/Document/document-liveness",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "id-verification/Document/index",
+              "path": "/id-verification/Document/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "id-verification/face/face-detect",
+              "path": "/id-verification/face/face-detect",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "id-verification/face/face-liveness",
+              "path": "/id-verification/face/face-liveness",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "id-verification/face/face-verification",
+              "path": "/id-verification/face/face-verification",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "id-verification/face/index",
+              "path": "/id-verification/face/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "id-verification/full-onboarding/create-session",
+              "path": "/id-verification/full-onboarding/create-session",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "id-verification/full-onboarding/data",
+              "path": "/id-verification/full-onboarding/data",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "id-verification/full-onboarding/enrolment",
+              "path": "/id-verification/full-onboarding/enrolment",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "id-verification/full-onboarding/getting-started",
+              "path": "/id-verification/full-onboarding/getting-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "id-verification/full-onboarding/index",
+              "path": "/id-verification/full-onboarding/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "id-verification/full-onboarding/results",
+              "path": "/id-verification/full-onboarding/results",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "id-verification/identity/🇳🇬 nigeria/business-verification",
+              "path": "/id-verification/identity/🇳🇬 nigeria/business-verification",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "id-verification/identity/🇳🇬 nigeria/bvn",
+              "path": "/id-verification/identity/🇳🇬 nigeria/bvn",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "id-verification/identity/🇳🇬 nigeria/nin",
+              "path": "/id-verification/identity/🇳🇬 nigeria/nin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "id-verification/identity/🇳🇬 nigeria/tin",
+              "path": "/id-verification/identity/🇳🇬 nigeria/tin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "id-verification/identity/🇳🇬 nigeria/vnin",
+              "path": "/id-verification/identity/🇳🇬 nigeria/vnin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "id-verification/identity/index",
+              "path": "/id-verification/identity/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "id-verification/index",
+              "path": "/id-verification/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "screening/adverse-media",
+              "path": "/screening/adverse-media",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "screening/index",
+              "path": "/screening/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "screening/pep-sanction-screening",
+              "path": "/screening/pep-sanction-screening",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "screening/screening-result",
+              "path": "/screening/screening-result",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "transaction-monitoring/customer/create-update-customer",
+              "path": "/transaction-monitoring/customer/create-update-customer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "transaction-monitoring/customer/get-customer",
+              "path": "/transaction-monitoring/customer/get-customer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "transaction-monitoring/customer/index",
+              "path": "/transaction-monitoring/customer/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "transaction-monitoring/index",
+              "path": "/transaction-monitoring/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "transaction-monitoring/transaction/get-transaction",
+              "path": "/transaction-monitoring/transaction/get-transaction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "transaction-monitoring/transaction/index",
+              "path": "/transaction-monitoring/transaction/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "transaction-monitoring/transaction/process-transaction",
+              "path": "/transaction-monitoring/transaction/process-transaction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "transaction-monitoring/transaction/rescore-transaction",
+              "path": "/transaction-monitoring/transaction/rescore-transaction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "transaction-monitoring/transaction/transaction-statuses",
+              "path": "/transaction-monitoring/transaction/transaction-statuses",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/",
+                "label": "👋 Introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

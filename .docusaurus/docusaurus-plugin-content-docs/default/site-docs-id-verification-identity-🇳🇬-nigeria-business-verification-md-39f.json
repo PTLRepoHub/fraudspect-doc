@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇳🇬 nigeria/business-verification",
+  "title": "Business Verification",
+  "description": "Verify Business (CAC)",
+  "source": "@site/docs/id-verification/identity/🇳🇬 nigeria/business-verification.md",
+  "sourceDirName": "id-verification/identity/🇳🇬 nigeria",
+  "slug": "/id-verification/identity/🇳🇬 nigeria/business-verification",
+  "permalink": "/id-verification/identity/🇳🇬 nigeria/business-verification",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Business Verification",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "TIN Verification",
+    "permalink": "/id-verification/identity/🇳🇬 nigeria/tin"
+  },
+  "next": {
+    "title": "NIN Verification",
+    "permalink": "/id-verification/identity/🇳🇬 nigeria/nin"
+  }
+}

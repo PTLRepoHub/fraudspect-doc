@@ -1,0 +1,29 @@
+{
+  "id": "transaction-monitoring/customer/index",
+  "title": "Customer",
+  "description": "Transaction monitoring for customers.",
+  "source": "@site/docs/transaction-monitoring/customer/index.mdx",
+  "sourceDirName": "transaction-monitoring/customer",
+  "slug": "/transaction-monitoring/customer/",
+  "permalink": "/transaction-monitoring/customer/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Customer",
+    "description": "Transaction monitoring for customers.",
+    "sidebar_label": "Customer",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Transaction Monitoring",
+    "permalink": "/transaction-monitoring/"
+  },
+  "next": {
+    "title": "Create/Update Customer",
+    "permalink": "/transaction-monitoring/customer/create-update-customer"
+  }
+}

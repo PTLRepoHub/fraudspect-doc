@@ -1,0 +1,27 @@
+{
+  "id": "transaction-monitoring/customer/get-customer",
+  "title": "Get Customer",
+  "description": "Get Customer by referenceId",
+  "source": "@site/docs/transaction-monitoring/customer/get-customer.md",
+  "sourceDirName": "transaction-monitoring/customer",
+  "slug": "/transaction-monitoring/customer/get-customer",
+  "permalink": "/transaction-monitoring/customer/get-customer",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Get Customer",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create/Update Customer",
+    "permalink": "/transaction-monitoring/customer/create-update-customer"
+  },
+  "next": {
+    "title": "Transaction",
+    "permalink": "/transaction-monitoring/transaction/"
+  }
+}

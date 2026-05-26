@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/face/index",
+  "title": "Face",
+  "description": "",
+  "source": "@site/docs/id-verification/face/index.mdx",
+  "sourceDirName": "id-verification/face",
+  "slug": "/id-verification/face/",
+  "permalink": "/id-verification/face/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Face",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Document Liveness",
+    "permalink": "/id-verification/Document/document-liveness"
+  },
+  "next": {
+    "title": "Face Liveness",
+    "permalink": "/id-verification/face/face-liveness"
+  }
+}

@@ -1,41 +1,9 @@
-# Frudsapce docs
+# Introduction
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+The purpose of this document is to help our customers and partners integrate with Fraudspect Identity API Cloud.
 
-### Installation
+## Start
 
-```
-$ yarn
-```
+To start using our API, you will need connection credentials. These can be obtained by contacting our sales team at support@getfraudspect.com
 
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+If you have any technical questions, you can contact our support team at support@getfraudspect.com

@@ -1,0 +1,32 @@
+{
+  "id": "id-verification/full-onboarding/getting-started",
+  "title": "Getting Started",
+  "description": "Real life examples of how to use our SDK's.",
+  "source": "@site/docs/id-verification/full-onboarding/getting-started.md",
+  "sourceDirName": "id-verification/full-onboarding",
+  "slug": "/id-verification/full-onboarding/getting-started",
+  "permalink": "/id-verification/full-onboarding/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Getting Started",
+    "description": "Real life examples of how to use our SDK's.",
+    "keywords": [
+      "fraudspect"
+    ],
+    "slug": "getting-started",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Full Onboarding",
+    "permalink": "/id-verification/full-onboarding/"
+  },
+  "next": {
+    "title": "Create Session",
+    "permalink": "/id-verification/full-onboarding/create-session"
+  }
+}

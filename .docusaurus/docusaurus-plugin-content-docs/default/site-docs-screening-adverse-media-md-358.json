@@ -1,0 +1,23 @@
+{
+  "id": "screening/adverse-media",
+  "title": "Adverse Media",
+  "description": "Adverse Media Screening",
+  "source": "@site/docs/screening/adverse-media.md",
+  "sourceDirName": "screening",
+  "slug": "/screening/adverse-media",
+  "permalink": "/screening/adverse-media",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Adverse Media",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Get Screening Result",
+    "permalink": "/screening/screening-result"
+  }
+}

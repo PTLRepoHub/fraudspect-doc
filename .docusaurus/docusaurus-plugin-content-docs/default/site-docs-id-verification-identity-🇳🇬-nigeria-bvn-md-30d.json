@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇳🇬 nigeria/bvn",
+  "title": "BVN Verification",
+  "description": "Verify Bank Verification Number (BVN)",
+  "source": "@site/docs/id-verification/identity/🇳🇬 nigeria/bvn.md",
+  "sourceDirName": "id-verification/identity/🇳🇬 nigeria",
+  "slug": "/id-verification/identity/🇳🇬 nigeria/bvn",
+  "permalink": "/id-verification/identity/🇳🇬 nigeria/bvn",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "BVN Verification",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Identity Verification",
+    "permalink": "/id-verification/identity/"
+  },
+  "next": {
+    "title": "vNIN Verification",
+    "permalink": "/id-verification/identity/🇳🇬 nigeria/vnin"
+  }
+}
