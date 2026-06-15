@@ -24,7 +24,7 @@ POST /api/v1/transactions/{transactionServiceKey}/rescore
 | `transactionServiceKey`| path     | ✅       | Identifier of the transaction service that defines which rules to run |
 | `referenceId`          | body     | ✅       | Your internal transaction ID — must match an existing transaction |
 | `customerId`           | body     | ✅       | `referenceId` of the customer |
-| `amount`               | body     | ✅       | Transaction amount |
+| `amount`               | body     | —        | Transaction amount. Optional — not all module services require it |
 | *(any other key)*      | body     | —        | Any additional transaction fields, sent flat at the root |
 
 ### Request

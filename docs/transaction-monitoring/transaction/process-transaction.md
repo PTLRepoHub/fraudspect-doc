@@ -28,7 +28,7 @@ If a transaction with the same `referenceId` has already been processed, the pre
 | `transactionServiceKey`| path     | ✅       | Identifier of the transaction service that defines which rules to run |
 | `referenceId`          | body     | ✅       | Your internal transaction ID |
 | `customerId`           | body     | ✅       | `referenceId` of the customer initiating the transaction |
-| `amount`               | body     | ✅       | Transaction amount |
+| `amount`               | body     | —        | Transaction amount. Optional — not all module services require it |
 | *(any other key)*      | body     | —        | Any additional transaction fields defined in your organisation (sent flat, not nested) |
 
 ### Request
