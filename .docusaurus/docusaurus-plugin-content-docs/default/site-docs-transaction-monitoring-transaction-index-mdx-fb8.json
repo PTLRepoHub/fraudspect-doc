@@ -18,8 +18,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Get Customer",
-    "permalink": "/transaction-monitoring/customer/get-customer"
+    "title": "Customer Connections",
+    "permalink": "/transaction-monitoring/customer/customer-connections"
   },
   "next": {
     "title": "Process Transaction",

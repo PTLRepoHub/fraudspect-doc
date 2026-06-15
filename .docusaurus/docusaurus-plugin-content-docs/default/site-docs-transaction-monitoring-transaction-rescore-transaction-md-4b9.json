@@ -1,7 +1,7 @@
 {
   "id": "transaction-monitoring/transaction/rescore-transaction",
   "title": "Rescore Transaction",
-  "description": "Send Transaction for Processing",
+  "description": "Reprocess an existing transaction through the fraud scoring rules. Useful when rules have changed or when manual review is complete and a fresh score is needed.",
   "source": "@site/docs/transaction-monitoring/transaction/rescore-transaction.md",
   "sourceDirName": "transaction-monitoring/transaction",
   "slug": "/transaction-monitoring/transaction/rescore-transaction",

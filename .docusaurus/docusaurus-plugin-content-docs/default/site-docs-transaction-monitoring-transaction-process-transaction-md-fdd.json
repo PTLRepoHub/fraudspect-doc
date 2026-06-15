@@ -1,7 +1,7 @@
 {
   "id": "transaction-monitoring/transaction/process-transaction",
   "title": "Process Transaction",
-  "description": "Send Transaction for Processing",
+  "description": "Submit a transaction for fraud scoring. Rules configured for the selected service are evaluated and a risk score is returned.",
   "source": "@site/docs/transaction-monitoring/transaction/process-transaction.md",
   "sourceDirName": "transaction-monitoring/transaction",
   "slug": "/transaction-monitoring/transaction/process-transaction",

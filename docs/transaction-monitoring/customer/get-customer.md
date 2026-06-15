@@ -3,59 +3,71 @@ title: Get Customer
 sidebar_position: 2
 ---
 
-Get Customer by referenceId
+Retrieve a customer record by their `referenceId`.
 
 ## API Call
 
-To get customer.
+Send an HTTP **GET** request to:
 
-Send an HTTP POST request to:
+```
+GET /api/v1/customers/{referenceId}
+```
 
-- `/api/v1/customers/{reference_id}`
+### Path parameters
 
-The following parameters are used for requests and responses:
+| Parameter      | Direction | Description |
+|----------------|-----------|-------------|
+| `referenceId`  | path      | Your internal customer ID |
 
-| Parameter      | Direction | Description                                                                 |
-|----------------|-----------|-----------------------------------------------------------------------------|
-| reference_id      | path   |  The ID from the BANK system, which will be used for subsequent transaction |
-
-### Response - Successful
+### Response — Successful
 
 ```json
 {
-    "status": 200,
-    "message": "Customers fetched successfully",
-    "data": {
-        "id": 3,
-        "name": "Sylvernus Akubo",
-        "referenceId": "550",
-        "riskScore": 50,
-        "riskScoreName": "High risk",
-        "lastIpAddress": null,
-        "lastUserAgent": null,
-        "usualUserAgent": null,
-        "lastScreeningDate": null,
-        "accountTypeId": 1,
-        "createdAt": "2025-06-27T09:23:00.790Z",
-        "updatedAt": "2025-06-27T09:23:00.790Z",
-        "organizationId": "0b042d50-fa8d-44d6-b3e5-02ace4c24f8b",
-        "externalId": "456",
-        "accountType": {
-            "id": 1,
-            "name": "personal"
-        },
-        "customerMappedField": []
+  "status": 200,
+  "message": "Customers fetched successfully",
+  "data": {
+    "id": 3,
+    "name": "Sylvernus Akubo",
+    "referenceId": "550",
+    "riskScore": 50,
+    "riskScoreName": "High risk",
+    "lastIpAddress": null,
+    "lastUserAgent": null,
+    "usualUserAgent": null,
+    "lastScreeningDate": null,
+    "accountTypeId": 1,
+    "createdAt": "2025-06-27T09:23:00.790Z",
+    "updatedAt": "2025-06-27T09:23:00.790Z",
+    "organizationId": "0b042d50-fa8d-44d6-b3e5-02ace4c24f8b",
+    "externalId": "456",
+    "accountType": {
+      "id": 1,
+      "name": "personal"
     },
-    "code": "info"
+    "customerMappedField": [
+      {
+        "value": "08012345678",
+        "CustomerFieldDefinition": {
+          "name": "Phone",
+          "aliases": "phone"
+        }
+      }
+    ]
+  },
+  "code": "info"
 }
 ```
 
-### Response - Not Found
+:::tip
+To fetch a customer's connections (directors, UBOs, shareholders, etc.), use the dedicated [Customer Connections](./customer-connections) endpoint: `GET /api/v1/customers/{referenceId}/connections`
+:::
+
+### Response — Not Found
 
 ```json
 {
-    "message": "Customer with ID 556 not found",
-    "error": "Not Found",
-    "statusCode": 404
+  "message": "Customer with ID 556 not found",
+  "error": "Not Found",
+  "statusCode": 404
 }
 ```

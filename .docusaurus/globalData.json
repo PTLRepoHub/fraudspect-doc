@@ -136,6 +136,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "transaction-monitoring/customer/customer-connections",
+              "path": "/transaction-monitoring/customer/customer-connections",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "transaction-monitoring/customer/get-customer",
               "path": "/transaction-monitoring/customer/get-customer",
               "sidebar": "tutorialSidebar"

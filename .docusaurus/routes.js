@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '519'),
+    component: ComponentCreator('/', 'a17'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', 'a71'),
+        component: ComponentCreator('/', '571'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', 'c9d'),
+            component: ComponentCreator('/', '971'),
             routes: [
               {
                 path: '/id-verification',
@@ -207,6 +207,12 @@ export default [
               {
                 path: '/transaction-monitoring/customer/create-update-customer',
                 component: ComponentCreator('/transaction-monitoring/customer/create-update-customer', '81d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/transaction-monitoring/customer/customer-connections',
+                component: ComponentCreator('/transaction-monitoring/customer/customer-connections', 'dfa'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

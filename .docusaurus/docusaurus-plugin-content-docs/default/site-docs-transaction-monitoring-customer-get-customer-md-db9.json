@@ -1,7 +1,7 @@
 {
   "id": "transaction-monitoring/customer/get-customer",
   "title": "Get Customer",
-  "description": "Get Customer by referenceId",
+  "description": "Retrieve a customer record by their referenceId.",
   "source": "@site/docs/transaction-monitoring/customer/get-customer.md",
   "sourceDirName": "transaction-monitoring/customer",
   "slug": "/transaction-monitoring/customer/get-customer",
@@ -21,7 +21,7 @@
     "permalink": "/transaction-monitoring/customer/create-update-customer"
   },
   "next": {
-    "title": "Transaction",
-    "permalink": "/transaction-monitoring/transaction/"
+    "title": "Customer Connections",
+    "permalink": "/transaction-monitoring/customer/customer-connections"
   }
 }

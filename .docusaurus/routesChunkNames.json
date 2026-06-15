@@ -49,17 +49,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/-519": {
+  "/-a17": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---aba-d70"
     }
   },
-  "/-a71": {
+  "/-571": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---22-d-307"
   },
-  "/-c9d": {
+  "/-971": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/id-verification-1f1": {
@@ -165,6 +165,10 @@
   "/transaction-monitoring/customer/create-update-customer-81d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---transaction-monitoring-customer-create-update-customer-2-f-7-10c"
+  },
+  "/transaction-monitoring/customer/customer-connections-dfa": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---transaction-monitoring-customer-customer-connections-360-ea7"
   },
   "/transaction-monitoring/customer/get-customer-590": {
     "__comp": "__comp---theme-doc-item-178-a40",

@@ -1,7 +1,7 @@
 {
   "id": "transaction-monitoring/customer/create-update-customer",
   "title": "Create/Update Customer",
-  "description": "Create or update customer.",
+  "description": "Create or update a customer record. If a customer with the same referenceId already exists for your organisation, this endpoint performs an update instead of creating a duplicate.",
   "source": "@site/docs/transaction-monitoring/customer/create-update-customer.md",
   "sourceDirName": "transaction-monitoring/customer",
   "slug": "/transaction-monitoring/customer/create-update-customer",

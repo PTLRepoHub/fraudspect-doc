@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  GOLDEN FILE: NFIU goAML portal-accepted CTR sample
+  Source: _Web_Report_ReportID_2619207-0-0.xml (downloaded from goAML portal)
+
+  Key attributes of the accepted submission:
+    submission_code = E  (electronic)
+    transmode_code  = C  (conduction_type: cash)
+    from_funds_code = K  (funds_type: cash — NOT 'B' which is EFT)
+    report_code     = CTR
+    report_indicators = THRESHOLDREPORT only (no suspicious_activity block)
+
+  IMPORTANT: Replace this placeholder with the real XML from:
+    ~/Downloads/_Web_Report_ReportID_2619207-0-0.xml
+  before running golden-file tests in nfiu-xml.builder.spec.ts.
+
+  The real file is not committed to avoid exposing a real org's report ID.
+  A sanitised version (rentity_id and party names redacted) should be
+  placed here for CI purposes.
+-->
+<report>
+  <schema_version>5.0.2</schema_version>
+  <rentity_id>REPLACE_WITH_REAL_RENTITY_ID</rentity_id>
+  <submission_code>E</submission_code>
+  <report_code>CTR</report_code>
+  <entity_reference>REPLACE_WITH_ENTITY_REFERENCE</entity_reference>
+  <report_date>2024-01-01T00:00:00</report_date>
+  <currency_code_local>NGN</currency_code_local>
+  <reporting_user_code>REPLACE_WITH_USER_CODE</reporting_user_code>
+  <transaction>
+    <transactionnumber>REPLACE_WITH_TXN_REF</transactionnumber>
+    <transaction_description>CASH DEPOSIT</transaction_description>
+    <date_transaction>2024-01-01T00:00:00</date_transaction>
+    <transmode_code>C</transmode_code>
+    <amount_local>5000000</amount_local>
+    <t_from_my_client>
+      <from_funds_code>K</from_funds_code>
+      <from_person>
+        <gender>M</gender>
+        <first_name>REPLACE_FIRST</first_name>
+        <last_name>REPLACE_LAST</last_name>
+        <identifications>
+          <identification>
+            <type>L</type>
+            <number>REPLACE_BVN_11DIGITS</number>
+            <issue_country>NG</issue_country>
+          </identification>
+        </identifications>
+        <addresses>
+          <address>
+            <address_type>H</address_type>
+            <address>REPLACE_ADDRESS</address>
+            <city>Lagos</city>
+            <country_code>NG</country_code>
+          </address>
+        </addresses>
+      </from_person>
+      <from_country>NG</from_country>
+    </t_from_my_client>
+    <t_to>
+      <to_funds_code>K</to_funds_code>
+      <to_country>NG</to_country>
+    </t_to>
+  </transaction>
+  <report_indicators>
+    <indicator>THRESHOLDREPORT</indicator>
+  </report_indicators>
+</report>

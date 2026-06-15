@@ -1,0 +1,27 @@
+{
+  "id": "transaction-monitoring/customer/customer-connections",
+  "title": "Customer Connections",
+  "description": "Link customers to related entities — directors, UBOs, shareholders, and more. Connections are synced to Finchecker and used in relationship mapping during screening and transaction monitoring.",
+  "source": "@site/docs/transaction-monitoring/customer/customer-connections.md",
+  "sourceDirName": "transaction-monitoring/customer",
+  "slug": "/transaction-monitoring/customer/customer-connections",
+  "permalink": "/transaction-monitoring/customer/customer-connections",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Customer Connections",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Get Customer",
+    "permalink": "/transaction-monitoring/customer/get-customer"
+  },
+  "next": {
+    "title": "Transaction",
+    "permalink": "/transaction-monitoring/transaction/"
+  }
+}
