@@ -1,0 +1,87 @@
+---
+title: AML Screening
+description: How Fraudspect screens customers and transactions for money laundering risk.
+sidebar_label: AML Screening
+sidebar_position: 5
+---
+
+# AML Screening
+
+AML (Anti-Money Laundering) screening is the process of checking customers, beneficiaries, and transactions against known risk databases before — and sometimes during — financial activity. It is one of the primary ways financial institutions detect and prevent money laundering, terrorist financing, and other financial crime.
+
+Fraudspect runs AML checks automatically as part of your transaction monitoring pipeline, so you do not need a separate tool or manual lookup process.
+
+---
+
+## What gets screened?
+
+Fraudspect screens against the following risk categories:
+
+### Sanctions lists
+
+Sanctions are restrictions imposed by governments or international bodies (such as the UN, EU, OFAC, or OFSI) that prohibit financial dealings with specific individuals, organisations, or countries. Transacting with a sanctioned party is illegal in most jurisdictions, regardless of whether the underlying transaction appears suspicious.
+
+Fraudspect checks your customers and transaction parties against major global sanctions lists in real time. A match puts the transaction on hold immediately, pending review by your compliance team.
+
+### PEP — Politically Exposed Persons
+
+A PEP is someone who holds or has held a prominent public position — such as a government official, senior military officer, or judge — as well as their close family members and known associates. PEPs are not necessarily criminals, but their position creates a higher risk of bribery and corruption.
+
+Fraudspect identifies PEP-linked parties and flags them for enhanced due diligence (EDD) rather than automatic rejection. Your team decides whether the relationship is low-risk (e.g. a retired local official) or warrants deeper investigation.
+
+### Criminal records
+
+Fraudspect also screens against criminal databases that track individuals with convictions or ongoing investigations related to financial crime, fraud, drug trafficking, and other serious offences.
+
+### Adverse media
+
+Beyond structured databases, Fraudspect scans news sources and online publications for negative coverage linked to a person or entity. This catches risk that hasn't yet been formalised into a sanctions list — for example, a company director who has been publicly accused of fraud but not yet charged.
+
+---
+
+## When does screening happen?
+
+| Trigger | What's screened |
+|---|---|
+| Customer onboarding | Customer name, identity, and any connected parties |
+| Transaction processing | Sender, recipient, and beneficiary details |
+| Ongoing monitoring | Customers previously enrolled in continuous watch — re-screened when database updates occur |
+
+Ongoing monitoring is particularly important for sanctions compliance. A customer who was clean at onboarding may be added to a sanctions list months later. Fraudspect re-screens monitored customers automatically and alerts your team when a new match is detected.
+
+---
+
+## What happens when there's a match?
+
+Not all matches are genuine hits. Name collisions are common — especially for common names or transliterations from other scripts. Fraudspect returns a **match score** (0 to 1) alongside each result so your compliance team can quickly assess confidence:
+
+| Score range | Interpretation |
+|---|---|
+| 0.9 – 1.0 | Very high confidence — treat as a confirmed match |
+| 0.7 – 0.89 | Likely match — requires manual review |
+| 0.6 – 0.69 | Possible match — review in context of other risk factors |
+| Below 0.6 | Low confidence — typically a false positive |
+
+When a match is detected, the transaction is placed in **AML Hold** (status 4) and surfaced to your MLRO (Money Laundering Reporting Officer) for review. From there, your team can:
+
+- **Clear the match** — confirm it is a false positive and release the transaction
+- **Reject the transaction** — decline processing and record the reason
+- **File an STR** — if the match, combined with transaction context, raises a suspicion of money laundering or terrorism financing
+
+---
+
+## How AML screening feeds into reports
+
+AML screening and regulatory reporting work together:
+
+- A **sanctions match** on a transaction typically leads to an immediate hold and, if confirmed, an STR filing.
+- A **PEP match** triggers enhanced due diligence. If the PEP-linked transaction is unusual or unexplained, an STR may follow.
+- A **clean screening result** on a large transfer does not remove the obligation to file a CTR or FTR if the amount thresholds are met — those are separate requirements.
+
+Think of AML screening as the detection layer, and reports (STR, CTR, FTR) as the disclosure layer. Both are required, and Fraudspect handles both within the same workflow.
+
+---
+
+## Need help?
+
+For questions about configuring screening thresholds, enrolling customers in ongoing monitoring, or understanding match results, contact us at **support@getfraudspect.com**.

@@ -1,0 +1,144 @@
+---
+title: Reports
+description: Understanding regulatory transaction reports in Fraudspect.
+sidebar_label: Reports
+sidebar_position: 4
+---
+
+# Reports
+
+When your system processes transactions, certain activity may trigger a legal obligation to report it to a financial regulator. Fraudspect helps you meet these obligations by automatically generating the reports your compliance team needs.
+
+This section explains the types of reports available, what triggers them, and how Fraudspect helps you file them.
+
+---
+
+## What is a regulatory report?
+
+A regulatory report is a formal document submitted to a government authority or financial intelligence unit (FIU) to flag transactions that are unusual, large, or potentially linked to financial crime. These reports are required by law in most jurisdictions — failing to file them can result in significant penalties.
+
+Fraudspect takes the complexity out of this process. Rather than building your own reporting pipeline, you get a structured, auditable report generated from the transaction data already flowing through your system.
+
+---
+
+## Report types
+
+### STR — Suspicious Transaction Report
+
+An STR (also called SAR — Suspicious Activity Report — in some jurisdictions) is filed when a transaction or pattern of transactions raises a red flag that cannot be easily explained by normal business activity.
+
+**What triggers an STR?**
+
+An STR is not triggered by a fixed threshold — it is based on judgment. Common indicators include:
+
+- Transactions that are inconsistent with a customer's known profile or history
+- Unusual structuring (e.g. multiple smaller transactions that together avoid a reporting threshold)
+- Transactions involving high-risk countries, sanctioned entities, or PEP-linked parties
+- A customer who is uncooperative, evasive, or provides suspicious identification
+- Large cash movements without a clear business rationale
+
+**Who files it?**
+
+Your compliance team (typically the MLRO — Money Laundering Reporting Officer) reviews flagged transactions and decides whether an STR should be submitted. Fraudspect surfaces the relevant transaction details and risk signals so the MLRO can make an informed decision quickly.
+
+**Where does it go?**
+
+STRs are submitted to your country's Financial Intelligence Unit (FIU). For example:
+- Nigeria → NFIU (Nigerian Financial Intelligence Unit)
+- UK → NCA (National Crime Agency)
+- US → FinCEN (Financial Crimes Enforcement Network)
+
+---
+
+### CTR — Currency Transaction Report
+
+A CTR is a report filed for large cash transactions that exceed a defined threshold, regardless of whether the transaction looks suspicious.
+
+**What triggers a CTR?**
+
+Unlike an STR, a CTR is threshold-based and automatic. The threshold varies by jurisdiction, but a common example is:
+
+- Nigeria → Transactions above **₦5,000,000** (individuals) or **₦10,000,000** (corporate entities) must be reported to the NFIU
+
+The obligation exists even if the transaction is completely legitimate — the size alone is enough to require reporting.
+
+**What information is included?**
+
+A CTR typically captures:
+- Full details of the transaction (amount, date, type)
+- Sender and recipient identity information
+- The nature of the business relationship
+
+**Who files it?**
+
+CTRs are usually filed automatically or with minimal review, since they are threshold-driven rather than judgment-driven. Your compliance system is expected to detect and report them within a defined timeframe (often within 24–48 hours of the transaction).
+
+---
+
+### FTR — Funds Transfer Report
+
+An FTR is filed for electronic funds transfers that meet or exceed a defined threshold. It is distinct from a CTR (which focuses on cash) — an FTR specifically covers wire transfers, interbank transfers, and similar electronic movements of money between accounts.
+
+**What triggers an FTR?**
+
+Like a CTR, an FTR is threshold-driven and applies regardless of whether the transfer looks suspicious. In Nigeria, for example:
+
+- Electronic transfers of **₦1,000,000** and above (or equivalent in foreign currency) must be reported to the NFIU
+
+The obligation applies to both outgoing and incoming transfers. Multiple transfers to or from the same party within a single day can be aggregated if they collectively meet the threshold.
+
+**What information is included?**
+
+An FTR typically captures:
+- The full amount and currency of the transfer
+- Sender and recipient details (name, account number, bank)
+- The date and reference of the transfer
+- The originating and destination institutions
+
+**Who files it?**
+
+FTRs are filed by the financial institution initiating or receiving the transfer. Because they are threshold-based, they are generally expected to be filed automatically — your compliance system should detect qualifying transfers and generate the report without requiring manual review for each one.
+
+**How is it different from an STR?**
+
+| | STR | FTR |
+|---|---|---|
+| Trigger | Suspicion (judgment-based) | Amount threshold (automatic) |
+| Transaction type | Any | Electronic funds transfers only |
+| Requires manual review | Yes | Generally no |
+| Can overlap | Yes — a large transfer can trigger both | Yes |
+
+A transfer that crosses the FTR threshold and also looks suspicious should generate both an FTR and an STR independently.
+
+---
+
+## How Fraudspect handles reports
+
+Fraudspect does not make the compliance decision for you — that remains with your team. What it does is:
+
+1. **Flag transactions** that match suspicious patterns or exceed reporting thresholds, based on the rules configured for your organisation.
+2. **Surface the right data** — transaction details, customer history, risk scores, and rule triggers are all visible in one place so your MLRO can review without digging through multiple systems.
+3. **Generate structured reports** in the format required by your regulator, ready for submission.
+4. **Maintain an audit trail** — every report action (generated, reviewed, submitted, rejected) is logged so you can demonstrate compliance during an audit.
+
+:::tip
+You do not need to manually construct report payloads. Fraudspect compiles the required fields from your existing transaction and customer data automatically.
+:::
+
+---
+
+## What happens after a report is filed?
+
+Once an STR, CTR, or FTR is submitted, your regulator may:
+
+- **Acknowledge receipt** — no further action required from you at that point
+- **Request additional information** — you may need to provide supporting documents or transaction history
+- **Initiate an investigation** — in serious cases, law enforcement may follow up
+
+Fraudspect keeps a record of all submitted reports and their status, so your team always knows what has been filed and when.
+
+---
+
+## Need help?
+
+If you have questions about reporting obligations in your jurisdiction, or need help configuring report thresholds and triggers for your organisation, contact us at **support@getfraudspect.com**.
