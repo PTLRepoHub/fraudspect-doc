@@ -5,137 +5,128 @@ sidebar_position: 4
 
 ## Verify Business (CAC)
 
-**POST** `{{baseurl}}/v1/api/identity/ng/cac`
+**POST** `{{baseurl}}/api/v1/id-verifications/business/advance-business-verification`
+
+Advanced Business Verification (KYB) looks up a company by its Corporate Affairs
+Commission (CAC) registration number and returns the full registered profile of
+the business — including tax identifiers, addresses, key personnel and filings.
 
 #### Request Body
 
-| Name              | Type    | Description                                                      |
-|-------------------|---------|------------------------------------------------------------------|
-| id*               | String  | Valid CAC Registration Number (RC Number)                        |
-| isSubjectConsent* | Boolean | Indicate subject has given consent. Must be true                 |
-| validation        | Object  | Validation Object                                                |
-| data              | Object  | Data Validation Object                                           |
-| companyName       | String  | Company name to compare against CAC records                      |
-| registrationDate  | String  | Registration date to compare against CAC records (YYYY-MM-DD)   |
+| Name                | Type    | Description                                                       |
+|---------------------|---------|-------------------------------------------------------------------|
+| registrationNumber* | String  | Valid CAC registration number (RC number)                         |
+| isConsent*          | Boolean | Indicate subject has given consent. Must be `true`                |
+| countryCode*        | String  | ISO country code of the business, e.g. `NG`                       |
+| premium             | Boolean | Perform a premium (high-priority) lookup. Default value: `false`  |
 
-#### Business Verification
-
-Business Verification verifies that a provided Corporate Affairs Commission (CAC) registration number exists in the database. It returns the registered information of the business:
+#### Sample Request
 
 ```json
 {
-    "id": "RC-123456",
-    "isSubjectConsent": true
+    "registrationNumber": "RC-123456",
+    "isConsent": true,
+    "countryCode": "NG"
 }
 ```
 
+#### Sample Response
+
 ```json
 {
-    "success": true,
-    "statusCode": 200,
-    "message": "success",
     "data": {
-        "status": "found",
-        "reason": null,
-        "dataValidation": false,
-        "selfieValidation": false,
-        "companyName": "ACME ENTERPRISES LIMITED",
-        "registrationNumber": "RC-123456",
-        "registrationDate": "2015-07-10",
-        "companyStatus": "Active",
-        "companyType": "Private Company Limited by Shares",
-        "address": {
-            "street": "10 Commerce Avenue, Victoria Island",
-            "city": "Lagos",
-            "state": "Lagos",
-            "country": "Nigeria"
-        },
-        "directors": [
-            {
-                "firstName": "John",
-                "lastName": "Doe",
-                "dateOfBirth": "1975-03-15",
-                "nationality": "Nigerian"
-            }
-        ],
-        "isConsent": true,
-        "idNumber": "RC-123456",
-        "allValidationPassed": true,
-        "createdAt": "2023-06-20T18:20:11.552Z",
-        "updatedAt": "2023-06-20T18:20:11.552Z",
+        "id": "6491ee6e239381344487a5ff",
+        "verificationNumber": "RC-123456",
+        "name": "ACME ENTERPRISES LIMITED",
+        "type": "ADVANCE_COMPANY_VERIFICATION",
         "country": "NG",
-        "metadata": {}
-    }
-}
-```
-
-### Business Validation
-
-Business Validation verifies a CAC registration number and compares provided data parameters against the records in the database:
-
-```json
-{
-    "id": "RC-123456",
-    "isSubjectConsent": true,
-    "validations": {
-        "data": {
-            "companyName": "ACME ENTERPRISES LIMITED",
-            "registrationDate": "2015-07-10"
-        }
-    }
-}
-```
-
-```json
-{
-    "success": true,
-    "statusCode": 200,
-    "message": "success",
-    "data": {
-        "validations": {
-            "data": {
-                "companyName": {
-                    "validated": true,
-                    "value": "ACME ENTERPRISES LIMITED"
-                },
-                "registrationDate": {
-                    "validated": true,
-                    "value": "2015-07-10"
+        "requestAt": "2023-06-20T18:20:11.552Z",
+        "requestUpdatedAt": "2023-06-20T18:20:11.552Z",
+        "requestedBy": {
+            "id": "62c2a4868d3193700828014e",
+            "firstName": "API",
+            "lastName": "User"
+        },
+        "parentId": null,
+        "searchBusinessName": "ACME ENTERPRISES LIMITED",
+        "formerName": "",
+        "registrationNumber": "RC-123456",
+        "registryNumber": "",
+        "vatNumber": "",
+        "registrationDate": "2015-07-10",
+        "registrationSubmissionDate": "2015-07-08",
+        "dateDisolved": "",
+        "tin": "12345678-0001",
+        "jtbTin": "",
+        "taxOffice": "Victoria Island MSTO",
+        "email": "info@acme.example",
+        "phone": "08000000000",
+        "websiteEmail": "",
+        "typeOfEntity": "Private Company Limited by Shares",
+        "activity": "Wholesale and retail trade",
+        "activityDescription": "General merchandise trading",
+        "address": "10 Commerce Avenue, Victoria Island",
+        "state": "Lagos",
+        "lga": "Eti-Osa",
+        "city": "Lagos",
+        "branchAddress": "",
+        "headOfficeAddress": "10 Commerce Avenue, Victoria Island",
+        "objectives": "To carry on the business of general merchandise trading",
+        "status": "Active",
+        "companyStatus": "Active",
+        "isConsent": true,
+        "lastUpdatedAt": "2023-06-20T18:20:11.552Z",
+        "shareCapitalInWords": "One Million Naira",
+        "paidShareCapital": "1000000",
+        "subscribedShareCapital": "1000000",
+        "sharesValue": "1000000",
+        "sharesIssued": "1000000",
+        "parentCountry": "",
+        "countryCode": "NG",
+        "companyContactPersons": [
+            {
+                "name": "John Doe",
+                "contacts": {
+                    "email": ["john.doe@acme.example"],
+                    "phone": ["08000000001"]
                 }
-            },
-            "validationMessages": ""
-        },
-        "status": "found",
-        "reason": null,
-        "dataValidation": true,
-        "selfieValidation": false,
-        "companyName": "ACME ENTERPRISES LIMITED",
-        "registrationNumber": "RC-123456",
-        "registrationDate": "2015-07-10",
-        "companyStatus": "Active",
-        "companyType": "Private Company Limited by Shares",
-        "address": {
-            "street": "10 Commerce Avenue, Victoria Island",
-            "city": "Lagos",
-            "state": "Lagos",
-            "country": "Nigeria"
-        },
-        "directors": [
-            {
-                "firstName": "John",
-                "lastName": "Doe",
-                "dateOfBirth": "1975-03-15",
-                "nationality": "Nigerian"
             }
         ],
-        "isConsent": true,
-        "idNumber": "RC-123456",
-        "allValidationPassed": true,
-        "country": "NG",
-        "createdAt": "2023-06-20T18:24:16.916Z",
-        "lastModifiedAt": "2023-06-20T18:24:16.916Z",
-        "metadata": {}
-    }
+        "keyPersonnel": [
+            {
+                "name": "John Doe",
+                "designation": "Director",
+                "isCorporate": false,
+                "appointedOn": "2015-07-10",
+                "resignedOn": null,
+                "sharesType": "Ordinary",
+                "sharesValue": 500000,
+                "sharesCount": 500000,
+                "occupation": "Businessman",
+                "nationality": "Nigerian",
+                "dateOfBirth": "1975-03-15",
+                "gender": "male",
+                "address": "10 Commerce Avenue, Victoria Island",
+                "countryOfResidence": "Nigeria",
+                "status": "ACTIVE",
+                "companies": []
+            }
+        ],
+        "legalEntityIdentifierRegister": [],
+        "centralIndexKeyRegister": [],
+        "filings": [
+            {
+                "date": "2022-01-15",
+                "name": "Annual Return",
+                "type": "Return",
+                "status": "Filed"
+            }
+        ],
+        "affiliates": []
+    },
+    "message": "Successfull!",
+    "status": 200,
+    "code": "info"
 }
 ```
 
@@ -145,11 +136,10 @@ Business Validation verifies a CAC registration number and compares provided dat
 
 ```json
 {
-    "success": false,
-    "statusCode": 402,
+    "data": {},
     "message": "Insufficient fund",
-    "name": "PaymentRequiredError",
-    "data": {}
+    "status": 402,
+    "code": "PaymentRequiredError"
 }
 ```
 
@@ -157,11 +147,10 @@ Business Validation verifies a CAC registration number and compares provided dat
 
 ```json
 {
-    "success": false,
-    "statusCode": 500,
+    "data": {},
     "message": "Service unavailable",
-    "name": "Error",
-    "data": {}
+    "status": 500,
+    "code": "Error"
 }
 ```
 
@@ -169,10 +158,9 @@ Business Validation verifies a CAC registration number and compares provided dat
 
 ```json
 {
-    "success": false,
-    "statusCode": 403,
+    "data": {},
     "message": "Permission denied",
-    "name": "UnauthorizedError",
-    "data": {}
+    "status": 403,
+    "code": "UnauthorizedError"
 }
 ```

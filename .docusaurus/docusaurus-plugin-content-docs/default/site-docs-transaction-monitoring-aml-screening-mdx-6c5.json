@@ -1,0 +1,29 @@
+{
+  "id": "transaction-monitoring/aml-screening",
+  "title": "AML Screening",
+  "description": "How Fraudspect screens customers and transactions for money laundering risk.",
+  "source": "@site/docs/transaction-monitoring/aml-screening.mdx",
+  "sourceDirName": "transaction-monitoring",
+  "slug": "/transaction-monitoring/aml-screening",
+  "permalink": "/transaction-monitoring/aml-screening",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "AML Screening",
+    "description": "How Fraudspect screens customers and transactions for money laundering risk.",
+    "sidebar_label": "AML Screening",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Reports",
+    "permalink": "/transaction-monitoring/report/"
+  },
+  "next": {
+    "title": "Screening",
+    "permalink": "/screening/"
+  }
+}

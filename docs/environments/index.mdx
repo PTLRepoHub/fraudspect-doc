@@ -1,0 +1,203 @@
+---
+title: Sandbox & Production
+sidebar_position: 3
+---
+
+# Sandbox & Production
+
+FraudSpect provides two isolated environments so you can build and test your integration
+without spending credits or creating real records:
+
+| Environment   | Purpose                                   | External providers | Credits charged | Data        |
+| ------------- | ----------------------------------------- | ------------------- | --------------- | ----------- |
+| **Sandbox**   | Develop and test against simulated data   | Simulated           | No (free)       | Test data   |
+| **Production**| Real screening, scoring, and verification | Live                | Yes             | Live data   |
+
+The two environments share the same base URL and the same endpoints. Which environment a
+request runs in is decided entirely by **how you authenticate** — your data, usage, and results
+are kept completely separate between them.
+
+:::tip Backward compatible
+If you do nothing, every request stays in **Production** — exactly as before. Sandbox is opt‑in.
+:::
+
+---
+
+## Choosing an environment
+
+### With an API key (server‑to‑server)
+
+Each API key belongs to a single environment, chosen when you create it in
+**Settings → API Keys**. Generate one **Sandbox** key and one **Production** key, and use the
+matching key for each environment — the environment is a property of the key itself.
+
+Send the key in the `x-api-key` header as usual. The environment is determined by the key you use:
+
+```bash
+# Using your Sandbox key — simulated response, no credits charged
+curl -X POST "https://<domain>/api/v1/persons" \
+  -H "x-api-key: <your-sandbox-key>" \
+  -H "Content-Type: application/json" \
+  -d '{ "name": "John Doe" }'
+
+# Using your Production key — live screening, credits charged
+curl -X POST "https://<domain>/api/v1/persons" \
+  -H "x-api-key: <your-production-key>" \
+  -H "Content-Type: application/json" \
+  -d '{ "name": "John Doe" }'
+```
+
+The dashboard labels each key with its environment. Keep your Sandbox and Production keys clearly
+separated in your own configuration (e.g. per‑environment secrets), since the key strings
+themselves look the same.
+
+:::note Existing keys
+API keys created before environments were introduced continue to work and operate in
+**Production**.
+:::
+
+### In the dashboard
+
+The dashboard has a global **Sandbox / Production** toggle. While **Sandbox** is selected, every
+screen (transactions, customers, AML cases, verifications, analytics, usage) shows only sandbox
+data, and a banner indicates you are in test mode. Switching to **Production** shows live data.
+
+Internally the toggle sends an `x-environment: sandbox` (or `production`) header on each request.
+
+---
+
+## What is isolated vs shared
+
+**Isolated per environment** — operational records you create or generate:
+transactions, customers, AML cases, ID/address/company verifications, adverse‑media and
+PEP/sanctions results, STR reports, in‑app notifications, and API usage logs. A record created in
+sandbox is never visible in production, and vice‑versa.
+
+**Shared across both environments** — your configuration and account:
+fraud rules, customer/transaction field definitions, classifiers, module subscriptions, team
+members and roles, your organization's KYB/onboarding, billing, and wallet. Configure once; it
+applies to both test and live.
+
+---
+
+## Credits in sandbox
+
+Sandbox calls are **free**. They never deduct from your wallet and never reach an external
+provider. Each sandbox call is still recorded in your usage history (marked as sandbox, cost `0`)
+so you can verify your integration is making the calls you expect.
+
+---
+
+## Sandbox test data (magic values)
+
+Sandbox responses are **deterministic**: the same input always returns the same result, and
+special "magic" input values let you trigger each outcome on demand so you can test every branch
+of your integration.
+
+| Module                       | Input                                       | Sandbox result          |
+| ---------------------------- | ------------------------------------------- | ----------------------- |
+| PEP / Sanctions (person)     | `name` contains `SANCTION`                  | Sanctions hit           |
+| PEP / Sanctions (person)     | `name` contains `PEP`                        | PEP hit                 |
+| Sanctions (company/org)      | company `name` contains `SANCTION`           | Sanctions hit           |
+| Adverse media                | `name` contains `ADVERSE`                    | Adverse‑media hit       |
+| PEP / Sanctions / Adverse    | any other `name`                            | Clean (no hit)          |
+| Transaction scoring          | `amount` greater than `1,000,000`           | High score / flagged    |
+| Transaction scoring          | `channel` equals `TEST_FRAUD`               | High score / flagged    |
+| Transaction scoring          | any other transaction                       | Low score / clean       |
+| Identity (BVN/NIN/vNIN)      | `id` ending `0000`                          | Not found               |
+| Identity (BVN/NIN/vNIN)      | `id` ending `1111`                          | Pending                 |
+| Identity (BVN/NIN/vNIN)      | any other `id`                              | Found (see below)       |
+| Business verification / TIN  | `registrationNumber` / `tin` ending `0000`  | Not found               |
+| Business verification / TIN  | any other value                             | Active record           |
+
+The `matchThreshold` parameter is honoured in sandbox just as in production, so you can also test
+how sensitivity affects the number of returned matches.
+
+### Identity verification (BVN / NIN / vNIN) — data validation &amp; selfie match
+
+An identity that is **Found** always returns the same canonical sandbox person. Your submitted
+`validations` are then checked against that record, so you can test both a successful and a failed
+verification. BVN and NIN are 11‑digit numbers (use e.g. `12345679999` for a Found result,
+`12345670000` for Not found).
+
+**The canonical sandbox identity:**
+
+| Field         | Value          |
+| ------------- | -------------- |
+| `firstName`   | `Adaeze`       |
+| `middleName`  | `Chioma`       |
+| `lastName`    | `Okafor`       |
+| `dateOfBirth` | `1990-05-12`   |
+| `gender`      | `female`       |
+
+- **Data validation** — submit `validations.data.{firstName,lastName,dateOfBirth}` matching the
+  table above (case‑insensitive) to get each field `validated: true` and `dataValidation: true`;
+  submit anything else and those fields come back `validated: false`.
+- **Selfie / image match** — include any non‑empty `validations.selfie.image` to get
+  `selfieVerification.match: true`; omit it for `false`.
+- `allValidationPassed` is `true` only when the data matches **and** a selfie was supplied.
+- A **Not found** result still returns a full record with empty personal fields, a `reason`, and your
+  submitted values echoed back as `validated: false` (exactly like the live provider).
+
+The top‑level record fields (`firstName`, `lastName`, `dateOfBirth`, `address`…) always reflect the
+canonical record; the `validations.data` block reflects what **you** submitted.
+
+:::info Asynchronous flows
+Verification flows that complete via webhook in production resolve immediately in sandbox, so you
+can test the full flow end‑to‑end without waiting for a callback.
+:::
+
+---
+
+## AML cases, screening &amp; reports in sandbox
+
+Automatic AML behaviour works the same in sandbox as in production — driven by the deterministic
+sandbox results instead of live provider data:
+
+- **Auto AML cases from transactions.** Process a transaction whose sandbox result is flagged
+  (e.g. `amount` over `1,000,000`, or `channel = TEST_FRAUD`) and a sandbox AML case is created and
+  linked to that transaction, just as a live hit would.
+- **Auto AML cases from customers.** A customer whose sandbox screening returns a hit (e.g. a
+  `name` containing `SANCTION` or `PEP`) opens a sandbox AML case tied to that customer.
+- **Screening tied to the case.** When a case opens, the automatic PEP/sanctions screening runs
+  against sandbox data and attaches its (simulated) result to the case, so you can exercise the full
+  case → screening → decision flow for free.
+
+All of these records are **sandbox‑only** and never appear in your production case queue.
+
+### STR reports in sandbox
+
+You can create, edit, preview, and validate STR reports (including the goAML XML) in sandbox so you
+can test your reporting workflow end‑to‑end. **Sandbox STRs cannot be filed to the regulator** — the
+submit / portal‑upload step is disabled in sandbox, and any generated XML is marked as test output
+so it can never be mistaken for a real filing.
+
+### Reports &amp; PDFs
+
+Screening, AML, and ID‑verification PDF reports generate normally in sandbox from your test data.
+Sandbox reports are **watermarked as test documents** so they are never confused with real
+compliance artifacts.
+
+---
+
+## Payments &amp; wallet in sandbox
+
+Sandbox calls are always free, so there is nothing to fund — **wallet top‑up and payment are not
+available in sandbox**. Any top‑up or checkout attempt while in Sandbox returns a clear "not
+available in sandbox — sandbox usage is free" message.
+
+Your wallet, billing, and payment methods are **shared** account settings (see *What is isolated vs
+shared* above): they exist only in Production and are untouched by sandbox activity. To rehearse the
+billing flow, switch to Production and use your real payment method.
+
+---
+
+## Going live — checklist
+
+1. Build and verify your integration end‑to‑end using your **Sandbox** key (or the dashboard's
+   Sandbox toggle).
+2. Confirm you handle each outcome (hit / clean / pending / failed) using the magic values above.
+3. Generate a **Production** key in **Settings → API Keys**.
+4. Swap the key (and remove any `x-environment` overrides) — your endpoints and request shapes are
+   identical, so no other code changes are required.
+5. Ensure your wallet has credits, since production calls are billed.

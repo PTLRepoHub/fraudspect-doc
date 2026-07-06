@@ -1,0 +1,27 @@
+{
+  "id": "environments/index",
+  "title": "Sandbox & Production",
+  "description": "FraudSpect provides two isolated environments so you can build and test your integration",
+  "source": "@site/docs/environments/index.mdx",
+  "sourceDirName": "environments",
+  "slug": "/environments/",
+  "permalink": "/environments/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Sandbox & Production",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "NIN Verification",
+    "permalink": "/id-verification/identity/🇳🇬 nigeria/nin"
+  },
+  "next": {
+    "title": "Transaction Monitoring",
+    "permalink": "/transaction-monitoring/"
+  }
+}

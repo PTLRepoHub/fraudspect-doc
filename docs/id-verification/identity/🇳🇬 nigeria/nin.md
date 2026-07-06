@@ -6,7 +6,7 @@ sidebar_position: 5
 
 ## Verify National Identification Number (NIN)
 
-**POST** `{{baseurl}}/v1/api/identity/ng/nin`
+**POST** `{{baseurl}}/api/v1/id-verifications/identity/ng/nin`
 
 #### Request Body
 

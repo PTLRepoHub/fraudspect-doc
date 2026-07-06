@@ -5,7 +5,7 @@ sidebar_position: 3
 
 ## Verify Tax Identification Number (TIN)
 
-**POST** `{{baseurl}}/v1/api/identity/ng/tin`
+**POST** `{{baseurl}}/api/v1/id-verifications/business/ng/tin`
 
 #### Request Body
 

@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Verify Virtual National Identification Number (vNIN)
 
-**POST** `{{baseurl}}/v1/api/identity/ng/vnin`
+**POST** `{{baseurl}}/api/v1/id-verifications/identity/ng/vnin`
 
 #### Request Body
 

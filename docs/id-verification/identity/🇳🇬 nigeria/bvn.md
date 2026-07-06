@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## Verify Bank Verification Number (BVN)
 
-**POST** `{{baseurl}}/v1/api/identity/ng/bvn`
+**POST** `{{baseurl}}/api/v1/id-verifications/identity/ng/bvn`
 
 #### Request Body
 

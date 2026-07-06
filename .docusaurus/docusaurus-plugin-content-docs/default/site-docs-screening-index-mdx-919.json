@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Transaction Statuses",
-    "permalink": "/transaction-monitoring/transaction/transaction-statuses"
+    "title": "AML Screening",
+    "permalink": "/transaction-monitoring/aml-screening"
   },
   "next": {
     "title": "PEP & Sanction Screening",

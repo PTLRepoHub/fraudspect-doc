@@ -44,16 +44,22 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'a17'),
+    component: ComponentCreator('/', '839'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '571'),
+        component: ComponentCreator('/', '436'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', '971'),
+            component: ComponentCreator('/', '366'),
             routes: [
+              {
+                path: '/environments',
+                component: ComponentCreator('/environments', '086'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
               {
                 path: '/id-verification',
                 component: ComponentCreator('/id-verification', '1f1'),
@@ -199,6 +205,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/transaction-monitoring/aml-screening',
+                component: ComponentCreator('/transaction-monitoring/aml-screening', 'aeb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/transaction-monitoring/customer',
                 component: ComponentCreator('/transaction-monitoring/customer', 'f1f'),
                 exact: true,
@@ -217,8 +229,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/transaction-monitoring/customer/customer-rules',
+                component: ComponentCreator('/transaction-monitoring/customer/customer-rules', '563'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/transaction-monitoring/customer/get-customer',
                 component: ComponentCreator('/transaction-monitoring/customer/get-customer', '590'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/transaction-monitoring/report',
+                component: ComponentCreator('/transaction-monitoring/report', '393'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

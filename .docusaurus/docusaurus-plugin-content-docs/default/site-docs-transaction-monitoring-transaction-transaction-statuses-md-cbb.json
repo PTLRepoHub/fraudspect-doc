@@ -21,7 +21,7 @@
     "permalink": "/transaction-monitoring/transaction/get-transaction"
   },
   "next": {
-    "title": "Screening",
-    "permalink": "/screening/"
+    "title": "Reports",
+    "permalink": "/transaction-monitoring/report/"
   }
 }

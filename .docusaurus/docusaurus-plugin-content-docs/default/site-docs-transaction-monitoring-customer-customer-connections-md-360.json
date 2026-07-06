@@ -21,7 +21,7 @@
     "permalink": "/transaction-monitoring/customer/get-customer"
   },
   "next": {
-    "title": "Transaction",
-    "permalink": "/transaction-monitoring/transaction/"
+    "title": "Customer Rules",
+    "permalink": "/transaction-monitoring/customer/customer-rules"
   }
 }

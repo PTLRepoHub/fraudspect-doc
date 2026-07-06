@@ -1,0 +1,28 @@
+{
+  "id": "transaction-monitoring/customer/customer-rules",
+  "title": "Customer Rules (Risk Factors)",
+  "description": "A customer rule — also called a risk factor — is a configurable scoring rule that evaluates your customers' data and contributes to their overall risk score. Each rule looks at one or more conditions about a customer (such as their account type, country, or custom fields) and adds a numeric score when those conditions are met.",
+  "source": "@site/docs/transaction-monitoring/customer/customer-rules.md",
+  "sourceDirName": "transaction-monitoring/customer",
+  "slug": "/transaction-monitoring/customer/customer-rules",
+  "permalink": "/transaction-monitoring/customer/customer-rules",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Customer Rules (Risk Factors)",
+    "sidebar_label": "Customer Rules",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Customer Connections",
+    "permalink": "/transaction-monitoring/customer/customer-connections"
+  },
+  "next": {
+    "title": "Transaction",
+    "permalink": "/transaction-monitoring/transaction/"
+  }
+}

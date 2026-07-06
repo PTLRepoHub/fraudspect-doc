@@ -11,6 +11,11 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "environments/index",
+              "path": "/environments/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "id-verification/Document/document-liveness",
               "path": "/id-verification/Document/document-liveness",
               "sidebar": "tutorialSidebar"
@@ -131,6 +136,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "transaction-monitoring/aml-screening",
+              "path": "/transaction-monitoring/aml-screening",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "transaction-monitoring/customer/create-update-customer",
               "path": "/transaction-monitoring/customer/create-update-customer",
               "sidebar": "tutorialSidebar"
@@ -138,6 +148,11 @@
             {
               "id": "transaction-monitoring/customer/customer-connections",
               "path": "/transaction-monitoring/customer/customer-connections",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "transaction-monitoring/customer/customer-rules",
+              "path": "/transaction-monitoring/customer/customer-rules",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -153,6 +168,11 @@
             {
               "id": "transaction-monitoring/index",
               "path": "/transaction-monitoring/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "transaction-monitoring/report/index",
+              "path": "/transaction-monitoring/report/",
               "sidebar": "tutorialSidebar"
             },
             {

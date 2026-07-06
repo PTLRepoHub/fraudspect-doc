@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "NIN Verification",
-    "permalink": "/id-verification/identity/🇳🇬 nigeria/nin"
+    "title": "Sandbox & Production",
+    "permalink": "/environments/"
   },
   "next": {
     "title": "Customer",
