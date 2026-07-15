@@ -11,11 +11,6 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "environments/index",
-              "path": "/environments/",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "id-verification/Document/document-liveness",
               "path": "/id-verification/Document/document-liveness",
               "sidebar": "tutorialSidebar"

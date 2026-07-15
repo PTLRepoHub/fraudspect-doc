@@ -1,217 +1,170 @@
 {
-  "/__docusaurus/debug-5ff": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/config-5ba": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/content-a2b": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    },
-    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
-  },
-  "/__docusaurus/debug/globalData-c3c": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/metadata-156": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/registry-88c": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/routes-000": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
   "/markdown-page-3d7": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---markdown-pagea-74-7b5"
+      "plugin": "a7456010"
     },
-    "content": "content---markdown-page-393-028"
+    "content": "393be207"
   },
-  "/-839": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+  "/-546": {
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---aba-d70"
+      "plugin": "aba21aa0"
     }
   },
-  "/-436": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---22-d-307"
+  "/-277": {
+    "__comp": "a7bd4aaa",
+    "__props": "22dd74f7"
   },
-  "/-366": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
-  },
-  "/environments-086": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---environments-1-a-0-dd6"
+  "/-30e": {
+    "__comp": "a94703ab"
   },
   "/id-verification-1f1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---id-verificationf-69-95b"
+    "__comp": "17896441",
+    "content": "f69673d9"
   },
   "/id-verification/Document-f10": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---id-verification-document-00-b-0ac"
+    "__comp": "17896441",
+    "content": "00b34d5e"
   },
   "/id-verification/Document/document-liveness-40f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---id-verification-document-document-liveness-491-33d"
+    "__comp": "17896441",
+    "content": "4919edae"
   },
   "/id-verification/face-fed": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---id-verification-faceaca-368"
+    "__comp": "17896441",
+    "content": "acabb2f6"
   },
   "/id-verification/face/face-detect-3f7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---id-verification-face-face-detect-567-081"
+    "__comp": "17896441",
+    "content": "567c9d5c"
   },
   "/id-verification/face/face-liveness-663": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---id-verification-face-face-livenesse-7-c-afb"
+    "__comp": "17896441",
+    "content": "e7ce7f20"
   },
   "/id-verification/face/face-verification-b2a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---id-verification-face-face-verificationdbd-5f1"
+    "__comp": "17896441",
+    "content": "dbd8207f"
   },
   "/id-verification/full-onboarding-f2d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---id-verification-full-onboardingaee-441"
+    "__comp": "17896441",
+    "content": "aee855e9"
   },
   "/id-verification/full-onboarding/create-session-eaa": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---id-verification-full-onboarding-create-sessiond-39-3d9"
+    "__comp": "17896441",
+    "content": "d39ae9da"
   },
   "/id-verification/full-onboarding/data-16d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---id-verification-full-onboarding-data-025-bae"
+    "__comp": "17896441",
+    "content": "0252b70f"
   },
   "/id-verification/full-onboarding/enrolment-19c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---id-verification-full-onboarding-enrolment-94-e-c07"
+    "__comp": "17896441",
+    "content": "94e22d87"
   },
   "/id-verification/full-onboarding/getting-started-41d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---id-verification-full-onboarding-getting-started-3-d-7-120"
+    "__comp": "17896441",
+    "content": "3d7a865f"
   },
   "/id-verification/full-onboarding/results-fa4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---id-verification-full-onboarding-resultsba-2-c01"
+    "__comp": "17896441",
+    "content": "ba2b4f8d"
   },
   "/id-verification/identity-34e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---id-verification-identity-10-c-f27"
+    "__comp": "17896441",
+    "content": "10ce9730"
   },
   "/id-verification/identity/🇳🇬 nigeria/business-verification-2ff": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---id-verification-identity-🇳🇬-nigeria-business-verification-39-f-df5"
+    "__comp": "17896441",
+    "content": "39f931c4"
   },
   "/id-verification/identity/🇳🇬 nigeria/bvn-be8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---id-verification-identity-🇳🇬-nigeria-bvn-30-d-4aa"
+    "__comp": "17896441",
+    "content": "30d0e3e4"
   },
   "/id-verification/identity/🇳🇬 nigeria/nin-5c4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---id-verification-identity-🇳🇬-nigeria-nin-75-b-ffa"
+    "__comp": "17896441",
+    "content": "75b4e865"
   },
   "/id-verification/identity/🇳🇬 nigeria/tin-6bb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---id-verification-identity-🇳🇬-nigeria-tin-706-96d"
+    "__comp": "17896441",
+    "content": "70633451"
   },
   "/id-verification/identity/🇳🇬 nigeria/vnin-fe7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---id-verification-identity-🇳🇬-nigeria-vnin-408-b1e"
+    "__comp": "17896441",
+    "content": "4082025d"
   },
   "/screening-432": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---screening-919-ed2"
+    "__comp": "17896441",
+    "content": "91944b73"
   },
   "/screening/adverse-media-6cc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---screening-adverse-media-358-f1d"
+    "__comp": "17896441",
+    "content": "358bf9a8"
   },
   "/screening/pep-sanction-screening-bb5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---screening-pep-sanction-screeningea-9-02c"
+    "__comp": "17896441",
+    "content": "ea932ac5"
   },
   "/screening/screening-result-52c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---screening-screening-resultbb-6-e11"
+    "__comp": "17896441",
+    "content": "bb6722e7"
   },
   "/transaction-monitoring-ceb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---transaction-monitoring-229-19d"
+    "__comp": "17896441",
+    "content": "229f7db8"
   },
   "/transaction-monitoring/aml-screening-aeb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---transaction-monitoring-aml-screening-6-c-5-95c"
+    "__comp": "17896441",
+    "content": "6c589b55"
   },
   "/transaction-monitoring/customer-f1f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---transaction-monitoring-customerf-51-37d"
+    "__comp": "17896441",
+    "content": "f511b531"
   },
   "/transaction-monitoring/customer/create-update-customer-81d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---transaction-monitoring-customer-create-update-customer-2-f-7-10c"
+    "__comp": "17896441",
+    "content": "2f72f1a4"
   },
   "/transaction-monitoring/customer/customer-connections-dfa": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---transaction-monitoring-customer-customer-connections-360-ea7"
+    "__comp": "17896441",
+    "content": "3607e57c"
   },
   "/transaction-monitoring/customer/customer-rules-563": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---transaction-monitoring-customer-customer-rules-0-fb-757"
+    "__comp": "17896441",
+    "content": "0fb926c0"
   },
   "/transaction-monitoring/customer/get-customer-590": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---transaction-monitoring-customer-get-customerdb-9-cf0"
+    "__comp": "17896441",
+    "content": "db99cd74"
   },
   "/transaction-monitoring/report-393": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---transaction-monitoring-reporte-6-d-783"
+    "__comp": "17896441",
+    "content": "e6dd0c64"
   },
   "/transaction-monitoring/transaction-c5f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---transaction-monitoring-transactionfb-8-7f9"
+    "__comp": "17896441",
+    "content": "fb8c4468"
   },
   "/transaction-monitoring/transaction/get-transaction-452": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---transaction-monitoring-transaction-get-transaction-79-d-e93"
+    "__comp": "17896441",
+    "content": "79dd7468"
   },
   "/transaction-monitoring/transaction/process-transaction-b08": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---transaction-monitoring-transaction-process-transactionfdd-11d"
+    "__comp": "17896441",
+    "content": "fdd2573f"
   },
   "/transaction-monitoring/transaction/rescore-transaction-758": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---transaction-monitoring-transaction-rescore-transaction-4-b-9-f42"
+    "__comp": "17896441",
+    "content": "4b96e1b2"
   },
   "/transaction-monitoring/transaction/transaction-statuses-1ad": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---transaction-monitoring-transaction-transaction-statusescbb-a39"
+    "__comp": "17896441",
+    "content": "cbb4f50c"
   },
   "/-fc9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---0-e-3-279"
+    "__comp": "17896441",
+    "content": "0e384e19"
   }
 }
