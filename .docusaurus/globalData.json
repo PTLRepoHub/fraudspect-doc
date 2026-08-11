@@ -96,6 +96,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "id-verification/identity/🌍 global/global-validation",
+              "path": "/id-verification/identity/🌍 global/global-validation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "id-verification/identity/index",
               "path": "/id-verification/identity/",
               "sidebar": "tutorialSidebar"

@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🌍 global/global-validation",
+  "title": "Global ID Validation",
+  "description": "Check an identity outside Nigeria",
+  "source": "@site/docs/id-verification/identity/🌍 global/global-validation.md",
+  "sourceDirName": "id-verification/identity/🌍 global",
+  "slug": "/id-verification/identity/🌍 global/global-validation",
+  "permalink": "/id-verification/identity/🌍 global/global-validation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Global ID Validation",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "NIN Verification",
+    "permalink": "/id-verification/identity/🇳🇬 nigeria/nin"
+  },
+  "next": {
+    "title": "Transaction Monitoring",
+    "permalink": "/transaction-monitoring/"
+  }
+}

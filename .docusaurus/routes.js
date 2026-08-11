@@ -9,15 +9,15 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '546'),
+    component: ComponentCreator('/', '088'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '277'),
+        component: ComponentCreator('/', 'a25'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', '30e'),
+            component: ComponentCreator('/', '6a6'),
             routes: [
               {
                 path: '/id-verification',
@@ -130,6 +130,12 @@ export default [
               {
                 path: '/id-verification/identity/🇳🇬 nigeria/vnin',
                 component: ComponentCreator('/id-verification/identity/🇳🇬 nigeria/vnin', 'fe7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🌍 global/global-validation',
+                component: ComponentCreator('/id-verification/identity/🌍 global/global-validation', '49b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
