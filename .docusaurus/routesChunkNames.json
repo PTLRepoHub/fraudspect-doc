@@ -6,17 +6,17 @@
     },
     "content": "393be207"
   },
-  "/-546": {
+  "/-088": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/-277": {
+  "/-a25": {
     "__comp": "a7bd4aaa",
     "__props": "22dd74f7"
   },
-  "/-30e": {
+  "/-6a6": {
     "__comp": "a94703ab"
   },
   "/id-verification-1f1": {
@@ -94,6 +94,10 @@
   "/id-verification/identity/🇳🇬 nigeria/vnin-fe7": {
     "__comp": "17896441",
     "content": "4082025d"
+  },
+  "/id-verification/identity/🌍 global/global-validation-49b": {
+    "__comp": "17896441",
+    "content": "39f8786d"
   },
   "/screening-432": {
     "__comp": "17896441",
