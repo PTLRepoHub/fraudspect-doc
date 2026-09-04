@@ -9,15 +9,15 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '088'),
+    component: ComponentCreator('/', 'a0f'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', 'a25'),
+        component: ComponentCreator('/', '415'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', '6a6'),
+            component: ComponentCreator('/', '602'),
             routes: [
               {
                 path: '/id-verification',
@@ -104,6 +104,144 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/id-verification/identity/🇨🇮 côte d\'ivoire/national-id',
+                component: ComponentCreator('/id-verification/identity/🇨🇮 côte d\'ivoire/national-id', 'bfb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇨🇮 côte d\'ivoire/old-national-id',
+                component: ComponentCreator('/id-verification/identity/🇨🇮 côte d\'ivoire/old-national-id', '3a4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇨🇮 côte d\'ivoire/residence-card',
+                component: ComponentCreator('/id-verification/identity/🇨🇮 côte d\'ivoire/residence-card', 'faa'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇬🇭 ghana/passport',
+                component: ComponentCreator('/id-verification/identity/🇬🇭 ghana/passport', '0da'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇬🇭 ghana/ssnit',
+                component: ComponentCreator('/id-verification/identity/🇬🇭 ghana/ssnit', '907'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇬🇭 ghana/voters-card',
+                component: ComponentCreator('/id-verification/identity/🇬🇭 ghana/voters-card', 'c85'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇰🇪 kenya/address',
+                component: ComponentCreator('/id-verification/identity/🇰🇪 kenya/address', '3a0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇰🇪 kenya/alien-id',
+                component: ComponentCreator('/id-verification/identity/🇰🇪 kenya/alien-id', '71d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇰🇪 kenya/bank-account',
+                component: ComponentCreator('/id-verification/identity/🇰🇪 kenya/bank-account', '17a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇰🇪 kenya/bank-list',
+                component: ComponentCreator('/id-verification/identity/🇰🇪 kenya/bank-list', '33d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇰🇪 kenya/credit-history',
+                component: ComponentCreator('/id-verification/identity/🇰🇪 kenya/credit-history', '4c9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇰🇪 kenya/drivers-license',
+                component: ComponentCreator('/id-verification/identity/🇰🇪 kenya/drivers-license', 'bd9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇰🇪 kenya/employment-history',
+                component: ComponentCreator('/id-verification/identity/🇰🇪 kenya/employment-history', 'bca'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇰🇪 kenya/identity-number',
+                component: ComponentCreator('/id-verification/identity/🇰🇪 kenya/identity-number', 'f48'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇰🇪 kenya/national-id',
+                component: ComponentCreator('/id-verification/identity/🇰🇪 kenya/national-id', 'f82'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇰🇪 kenya/passport',
+                component: ComponentCreator('/id-verification/identity/🇰🇪 kenya/passport', 'b35'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇰🇪 kenya/phone',
+                component: ComponentCreator('/id-verification/identity/🇰🇪 kenya/phone', 'aa8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇰🇪 kenya/plate-number',
+                component: ComponentCreator('/id-verification/identity/🇰🇪 kenya/plate-number', '358'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇰🇪 kenya/tax-pin',
+                component: ComponentCreator('/id-verification/identity/🇰🇪 kenya/tax-pin', '969'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇰🇪 kenya/vehicle-collateral',
+                component: ComponentCreator('/id-verification/identity/🇰🇪 kenya/vehicle-collateral', 'eca'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇳🇬 nigeria/advanced-phone-search',
+                component: ComponentCreator('/id-verification/identity/🇳🇬 nigeria/advanced-phone-search', '97c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇳🇬 nigeria/bank-account',
+                component: ComponentCreator('/id-verification/identity/🇳🇬 nigeria/bank-account', 'f4f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇳🇬 nigeria/bank-list',
+                component: ComponentCreator('/id-verification/identity/🇳🇬 nigeria/bank-list', '87b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/id-verification/identity/🇳🇬 nigeria/business-verification',
                 component: ComponentCreator('/id-verification/identity/🇳🇬 nigeria/business-verification', '2ff'),
                 exact: true,
@@ -116,8 +254,50 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/id-verification/identity/🇳🇬 nigeria/bvn-premium',
+                component: ComponentCreator('/id-verification/identity/🇳🇬 nigeria/bvn-premium', 'b22'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇳🇬 nigeria/drivers-license',
+                component: ComponentCreator('/id-verification/identity/🇳🇬 nigeria/drivers-license', '9eb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇳🇬 nigeria/individual-credit-report',
+                component: ComponentCreator('/id-verification/identity/🇳🇬 nigeria/individual-credit-report', 'ae3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇳🇬 nigeria/individual-tax-id',
+                component: ComponentCreator('/id-verification/identity/🇳🇬 nigeria/individual-tax-id', 'b40'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/id-verification/identity/🇳🇬 nigeria/nin',
                 component: ComponentCreator('/id-verification/identity/🇳🇬 nigeria/nin', '5c4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇳🇬 nigeria/phone',
+                component: ComponentCreator('/id-verification/identity/🇳🇬 nigeria/phone', '4ae'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇳🇬 nigeria/premium-bank-account',
+                component: ComponentCreator('/id-verification/identity/🇳🇬 nigeria/premium-bank-account', '1a8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇳🇬 nigeria/premium-bank-list',
+                component: ComponentCreator('/id-verification/identity/🇳🇬 nigeria/premium-bank-list', '45c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -130,6 +310,36 @@ export default [
               {
                 path: '/id-verification/identity/🇳🇬 nigeria/vnin',
                 component: ComponentCreator('/id-verification/identity/🇳🇬 nigeria/vnin', 'fe7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇳🇬 nigeria/voters-card',
+                component: ComponentCreator('/id-verification/identity/🇳🇬 nigeria/voters-card', '2fb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇿🇦 south africa/bank-account',
+                component: ComponentCreator('/id-verification/identity/🇿🇦 south africa/bank-account', '93d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇿🇦 south africa/phone',
+                component: ComponentCreator('/id-verification/identity/🇿🇦 south africa/phone', '6e7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇿🇦 south africa/proof-of-address',
+                component: ComponentCreator('/id-verification/identity/🇿🇦 south africa/proof-of-address', '624'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/id-verification/identity/🇿🇦 south africa/said',
+                component: ComponentCreator('/id-verification/identity/🇿🇦 south africa/said', 'c30'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

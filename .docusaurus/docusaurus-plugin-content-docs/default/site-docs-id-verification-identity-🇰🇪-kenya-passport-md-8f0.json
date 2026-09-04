@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇰🇪 kenya/passport",
+  "title": "Passport Verification",
+  "description": "Passport Verification",
+  "source": "@site/docs/id-verification/identity/🇰🇪 kenya/passport.md",
+  "sourceDirName": "id-verification/identity/🇰🇪 kenya",
+  "slug": "/id-verification/identity/🇰🇪 kenya/passport",
+  "permalink": "/id-verification/identity/🇰🇪 kenya/passport",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Passport Verification",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "National ID Verification",
+    "permalink": "/id-verification/identity/🇰🇪 kenya/national-id"
+  },
+  "next": {
+    "title": "Alien ID Verification",
+    "permalink": "/id-verification/identity/🇰🇪 kenya/alien-id"
+  }
+}

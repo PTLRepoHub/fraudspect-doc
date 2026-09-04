@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇳🇬 nigeria/voters-card",
+  "title": "Voter's Card (PVC) Verification",
+  "description": "Voter's Card (PVC) Verification",
+  "source": "@site/docs/id-verification/identity/🇳🇬 nigeria/voters-card.md",
+  "sourceDirName": "id-verification/identity/🇳🇬 nigeria",
+  "slug": "/id-verification/identity/🇳🇬 nigeria/voters-card",
+  "permalink": "/id-verification/identity/🇳🇬 nigeria/voters-card",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "title": "Voter's Card (PVC) Verification",
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Driver's Licence Verification",
+    "permalink": "/id-verification/identity/🇳🇬 nigeria/drivers-license"
+  },
+  "next": {
+    "title": "Phone Number Verification",
+    "permalink": "/id-verification/identity/🇳🇬 nigeria/phone"
+  }
+}

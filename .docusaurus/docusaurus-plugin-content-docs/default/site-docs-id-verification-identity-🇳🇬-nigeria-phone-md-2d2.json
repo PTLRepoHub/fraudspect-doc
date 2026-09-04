@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇳🇬 nigeria/phone",
+  "title": "Phone Number Verification",
+  "description": "Phone Number Verification",
+  "source": "@site/docs/id-verification/identity/🇳🇬 nigeria/phone.md",
+  "sourceDirName": "id-verification/identity/🇳🇬 nigeria",
+  "slug": "/id-verification/identity/🇳🇬 nigeria/phone",
+  "permalink": "/id-verification/identity/🇳🇬 nigeria/phone",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "title": "Phone Number Verification",
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Voter's Card (PVC) Verification",
+    "permalink": "/id-verification/identity/🇳🇬 nigeria/voters-card"
+  },
+  "next": {
+    "title": "Advanced Phone Search",
+    "permalink": "/id-verification/identity/🇳🇬 nigeria/advanced-phone-search"
+  }
+}

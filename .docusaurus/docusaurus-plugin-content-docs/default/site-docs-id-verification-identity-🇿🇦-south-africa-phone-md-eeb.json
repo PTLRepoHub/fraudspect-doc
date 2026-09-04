@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇿🇦 south africa/phone",
+  "title": "Phone Number Verification",
+  "description": "Phone Number Verification",
+  "source": "@site/docs/id-verification/identity/🇿🇦 south africa/phone.md",
+  "sourceDirName": "id-verification/identity/🇿🇦 south africa",
+  "slug": "/id-verification/identity/🇿🇦 south africa/phone",
+  "permalink": "/id-verification/identity/🇿🇦 south africa/phone",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Phone Number Verification",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SAID Verification",
+    "permalink": "/id-verification/identity/🇿🇦 south africa/said"
+  },
+  "next": {
+    "title": "Bank Account Verification",
+    "permalink": "/id-verification/identity/🇿🇦 south africa/bank-account"
+  }
+}

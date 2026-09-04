@@ -6,17 +6,17 @@
     },
     "content": "393be207"
   },
-  "/-088": {
+  "/-a0f": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/-a25": {
+  "/-415": {
     "__comp": "a7bd4aaa",
     "__props": "22dd74f7"
   },
-  "/-6a6": {
+  "/-602": {
     "__comp": "a94703ab"
   },
   "/id-verification-1f1": {
@@ -75,6 +75,98 @@
     "__comp": "17896441",
     "content": "10ce9730"
   },
+  "/id-verification/identity/🇨🇮 côte d'ivoire/national-id-bfb": {
+    "__comp": "17896441",
+    "content": "ba9fbb11"
+  },
+  "/id-verification/identity/🇨🇮 côte d'ivoire/old-national-id-3a4": {
+    "__comp": "17896441",
+    "content": "c3fcc22f"
+  },
+  "/id-verification/identity/🇨🇮 côte d'ivoire/residence-card-faa": {
+    "__comp": "17896441",
+    "content": "7057b7a5"
+  },
+  "/id-verification/identity/🇬🇭 ghana/passport-0da": {
+    "__comp": "17896441",
+    "content": "adc36756"
+  },
+  "/id-verification/identity/🇬🇭 ghana/ssnit-907": {
+    "__comp": "17896441",
+    "content": "1da2f45a"
+  },
+  "/id-verification/identity/🇬🇭 ghana/voters-card-c85": {
+    "__comp": "17896441",
+    "content": "5b31ecee"
+  },
+  "/id-verification/identity/🇰🇪 kenya/address-3a0": {
+    "__comp": "17896441",
+    "content": "323b494e"
+  },
+  "/id-verification/identity/🇰🇪 kenya/alien-id-71d": {
+    "__comp": "17896441",
+    "content": "62d4c731"
+  },
+  "/id-verification/identity/🇰🇪 kenya/bank-account-17a": {
+    "__comp": "17896441",
+    "content": "77f8aaea"
+  },
+  "/id-verification/identity/🇰🇪 kenya/bank-list-33d": {
+    "__comp": "17896441",
+    "content": "8f9af625"
+  },
+  "/id-verification/identity/🇰🇪 kenya/credit-history-4c9": {
+    "__comp": "17896441",
+    "content": "1e6675a8"
+  },
+  "/id-verification/identity/🇰🇪 kenya/drivers-license-bd9": {
+    "__comp": "17896441",
+    "content": "42c0a878"
+  },
+  "/id-verification/identity/🇰🇪 kenya/employment-history-bca": {
+    "__comp": "17896441",
+    "content": "4420646c"
+  },
+  "/id-verification/identity/🇰🇪 kenya/identity-number-f48": {
+    "__comp": "17896441",
+    "content": "9dae49ee"
+  },
+  "/id-verification/identity/🇰🇪 kenya/national-id-f82": {
+    "__comp": "17896441",
+    "content": "b1e20c1c"
+  },
+  "/id-verification/identity/🇰🇪 kenya/passport-b35": {
+    "__comp": "17896441",
+    "content": "8f0e8cea"
+  },
+  "/id-verification/identity/🇰🇪 kenya/phone-aa8": {
+    "__comp": "17896441",
+    "content": "d7c53dc2"
+  },
+  "/id-verification/identity/🇰🇪 kenya/plate-number-358": {
+    "__comp": "17896441",
+    "content": "3a97d9b3"
+  },
+  "/id-verification/identity/🇰🇪 kenya/tax-pin-969": {
+    "__comp": "17896441",
+    "content": "32b51200"
+  },
+  "/id-verification/identity/🇰🇪 kenya/vehicle-collateral-eca": {
+    "__comp": "17896441",
+    "content": "b33e7bef"
+  },
+  "/id-verification/identity/🇳🇬 nigeria/advanced-phone-search-97c": {
+    "__comp": "17896441",
+    "content": "0ad4158b"
+  },
+  "/id-verification/identity/🇳🇬 nigeria/bank-account-f4f": {
+    "__comp": "17896441",
+    "content": "127a05a9"
+  },
+  "/id-verification/identity/🇳🇬 nigeria/bank-list-87b": {
+    "__comp": "17896441",
+    "content": "2ccc3460"
+  },
   "/id-verification/identity/🇳🇬 nigeria/business-verification-2ff": {
     "__comp": "17896441",
     "content": "39f931c4"
@@ -83,9 +175,37 @@
     "__comp": "17896441",
     "content": "30d0e3e4"
   },
+  "/id-verification/identity/🇳🇬 nigeria/bvn-premium-b22": {
+    "__comp": "17896441",
+    "content": "af648d05"
+  },
+  "/id-verification/identity/🇳🇬 nigeria/drivers-license-9eb": {
+    "__comp": "17896441",
+    "content": "af899ab5"
+  },
+  "/id-verification/identity/🇳🇬 nigeria/individual-credit-report-ae3": {
+    "__comp": "17896441",
+    "content": "975c6626"
+  },
+  "/id-verification/identity/🇳🇬 nigeria/individual-tax-id-b40": {
+    "__comp": "17896441",
+    "content": "c6964c06"
+  },
   "/id-verification/identity/🇳🇬 nigeria/nin-5c4": {
     "__comp": "17896441",
     "content": "75b4e865"
+  },
+  "/id-verification/identity/🇳🇬 nigeria/phone-4ae": {
+    "__comp": "17896441",
+    "content": "2d27d1ab"
+  },
+  "/id-verification/identity/🇳🇬 nigeria/premium-bank-account-1a8": {
+    "__comp": "17896441",
+    "content": "2b73978d"
+  },
+  "/id-verification/identity/🇳🇬 nigeria/premium-bank-list-45c": {
+    "__comp": "17896441",
+    "content": "47fdc717"
   },
   "/id-verification/identity/🇳🇬 nigeria/tin-6bb": {
     "__comp": "17896441",
@@ -94,6 +214,26 @@
   "/id-verification/identity/🇳🇬 nigeria/vnin-fe7": {
     "__comp": "17896441",
     "content": "4082025d"
+  },
+  "/id-verification/identity/🇳🇬 nigeria/voters-card-2fb": {
+    "__comp": "17896441",
+    "content": "750e21f6"
+  },
+  "/id-verification/identity/🇿🇦 south africa/bank-account-93d": {
+    "__comp": "17896441",
+    "content": "174051a6"
+  },
+  "/id-verification/identity/🇿🇦 south africa/phone-6e7": {
+    "__comp": "17896441",
+    "content": "eeb45c04"
+  },
+  "/id-verification/identity/🇿🇦 south africa/proof-of-address-624": {
+    "__comp": "17896441",
+    "content": "a6f403c2"
+  },
+  "/id-verification/identity/🇿🇦 south africa/said-c30": {
+    "__comp": "17896441",
+    "content": "aebb0a77"
   },
   "/id-verification/identity/🌍 global/global-validation-49b": {
     "__comp": "17896441",

@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇳🇬 nigeria/premium-bank-list",
+  "title": "Premium Bank List",
+  "description": "Premium Bank List",
+  "source": "@site/docs/id-verification/identity/🇳🇬 nigeria/premium-bank-list.md",
+  "sourceDirName": "id-verification/identity/🇳🇬 nigeria",
+  "slug": "/id-verification/identity/🇳🇬 nigeria/premium-bank-list",
+  "permalink": "/id-verification/identity/🇳🇬 nigeria/premium-bank-list",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 15,
+  "frontMatter": {
+    "title": "Premium Bank List",
+    "sidebar_position": 15
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Bank Account Verification",
+    "permalink": "/id-verification/identity/🇳🇬 nigeria/bank-account"
+  },
+  "next": {
+    "title": "Premium Bank Account Verification",
+    "permalink": "/id-verification/identity/🇳🇬 nigeria/premium-bank-account"
+  }
+}

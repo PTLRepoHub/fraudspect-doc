@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇨🇮 côte d'ivoire/residence-card",
+  "title": "Residence Card Verification",
+  "description": "Residence Card Verification",
+  "source": "@site/docs/id-verification/identity/🇨🇮 côte d'ivoire/residence-card.md",
+  "sourceDirName": "id-verification/identity/🇨🇮 côte d'ivoire",
+  "slug": "/id-verification/identity/🇨🇮 côte d'ivoire/residence-card",
+  "permalink": "/id-verification/identity/🇨🇮 côte d'ivoire/residence-card",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Residence Card Verification",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Old National ID Verification",
+    "permalink": "/id-verification/identity/🇨🇮 côte d'ivoire/old-national-id"
+  },
+  "next": {
+    "title": "Passport Verification",
+    "permalink": "/id-verification/identity/🇬🇭 ghana/passport"
+  }
+}

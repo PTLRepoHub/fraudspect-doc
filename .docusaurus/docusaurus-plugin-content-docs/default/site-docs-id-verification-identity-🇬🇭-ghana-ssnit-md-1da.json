@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇬🇭 ghana/ssnit",
+  "title": "SSNIT Verification",
+  "description": "SSNIT Verification",
+  "source": "@site/docs/id-verification/identity/🇬🇭 ghana/ssnit.md",
+  "sourceDirName": "id-verification/identity/🇬🇭 ghana",
+  "slug": "/id-verification/identity/🇬🇭 ghana/ssnit",
+  "permalink": "/id-verification/identity/🇬🇭 ghana/ssnit",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "SSNIT Verification",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Passport Verification",
+    "permalink": "/id-verification/identity/🇬🇭 ghana/passport"
+  },
+  "next": {
+    "title": "Voter's Card Verification",
+    "permalink": "/id-verification/identity/🇬🇭 ghana/voters-card"
+  }
+}

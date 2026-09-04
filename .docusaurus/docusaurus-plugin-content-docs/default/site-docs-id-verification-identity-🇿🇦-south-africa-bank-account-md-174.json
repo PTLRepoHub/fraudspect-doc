@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇿🇦 south africa/bank-account",
+  "title": "Bank Account Verification",
+  "description": "Bank Account Verification",
+  "source": "@site/docs/id-verification/identity/🇿🇦 south africa/bank-account.md",
+  "sourceDirName": "id-verification/identity/🇿🇦 south africa",
+  "slug": "/id-verification/identity/🇿🇦 south africa/bank-account",
+  "permalink": "/id-verification/identity/🇿🇦 south africa/bank-account",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Bank Account Verification",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Phone Number Verification",
+    "permalink": "/id-verification/identity/🇿🇦 south africa/phone"
+  },
+  "next": {
+    "title": "Proof of Address Verification",
+    "permalink": "/id-verification/identity/🇿🇦 south africa/proof-of-address"
+  }
+}

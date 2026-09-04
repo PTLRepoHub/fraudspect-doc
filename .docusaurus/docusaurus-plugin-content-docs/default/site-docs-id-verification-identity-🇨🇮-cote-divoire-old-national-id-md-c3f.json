@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇨🇮 côte d'ivoire/old-national-id",
+  "title": "Old National ID Verification",
+  "description": "Old National ID Verification",
+  "source": "@site/docs/id-verification/identity/🇨🇮 côte d'ivoire/old-national-id.md",
+  "sourceDirName": "id-verification/identity/🇨🇮 côte d'ivoire",
+  "slug": "/id-verification/identity/🇨🇮 côte d'ivoire/old-national-id",
+  "permalink": "/id-verification/identity/🇨🇮 côte d'ivoire/old-national-id",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Old National ID Verification",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "National ID Verification",
+    "permalink": "/id-verification/identity/🇨🇮 côte d'ivoire/national-id"
+  },
+  "next": {
+    "title": "Residence Card Verification",
+    "permalink": "/id-verification/identity/🇨🇮 côte d'ivoire/residence-card"
+  }
+}

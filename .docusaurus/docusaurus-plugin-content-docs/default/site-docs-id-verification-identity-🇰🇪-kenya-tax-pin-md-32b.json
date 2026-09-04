@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇰🇪 kenya/tax-pin",
+  "title": "Tax PIN Verification",
+  "description": "Tax PIN Verification",
+  "source": "@site/docs/id-verification/identity/🇰🇪 kenya/tax-pin.md",
+  "sourceDirName": "id-verification/identity/🇰🇪 kenya",
+  "slug": "/id-verification/identity/🇰🇪 kenya/tax-pin",
+  "permalink": "/id-verification/identity/🇰🇪 kenya/tax-pin",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "Tax PIN Verification",
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Identity Number Verification",
+    "permalink": "/id-verification/identity/🇰🇪 kenya/identity-number"
+  },
+  "next": {
+    "title": "Phone Number Verification",
+    "permalink": "/id-verification/identity/🇰🇪 kenya/phone"
+  }
+}

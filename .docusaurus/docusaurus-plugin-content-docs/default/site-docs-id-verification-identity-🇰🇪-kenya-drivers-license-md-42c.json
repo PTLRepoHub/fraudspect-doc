@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇰🇪 kenya/drivers-license",
+  "title": "Driver's Licence Verification",
+  "description": "Driver's Licence Verification",
+  "source": "@site/docs/id-verification/identity/🇰🇪 kenya/drivers-license.md",
+  "sourceDirName": "id-verification/identity/🇰🇪 kenya",
+  "slug": "/id-verification/identity/🇰🇪 kenya/drivers-license",
+  "permalink": "/id-verification/identity/🇰🇪 kenya/drivers-license",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Driver's Licence Verification",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Alien ID Verification",
+    "permalink": "/id-verification/identity/🇰🇪 kenya/alien-id"
+  },
+  "next": {
+    "title": "Identity Number Verification",
+    "permalink": "/id-verification/identity/🇰🇪 kenya/identity-number"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇰🇪 kenya/alien-id",
+  "title": "Alien ID Verification",
+  "description": "Alien ID Verification",
+  "source": "@site/docs/id-verification/identity/🇰🇪 kenya/alien-id.md",
+  "sourceDirName": "id-verification/identity/🇰🇪 kenya",
+  "slug": "/id-verification/identity/🇰🇪 kenya/alien-id",
+  "permalink": "/id-verification/identity/🇰🇪 kenya/alien-id",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Alien ID Verification",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Passport Verification",
+    "permalink": "/id-verification/identity/🇰🇪 kenya/passport"
+  },
+  "next": {
+    "title": "Driver's Licence Verification",
+    "permalink": "/id-verification/identity/🇰🇪 kenya/drivers-license"
+  }
+}

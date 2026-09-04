@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇰🇪 kenya/phone",
+  "title": "Phone Number Verification",
+  "description": "Phone Number Verification",
+  "source": "@site/docs/id-verification/identity/🇰🇪 kenya/phone.md",
+  "sourceDirName": "id-verification/identity/🇰🇪 kenya",
+  "slug": "/id-verification/identity/🇰🇪 kenya/phone",
+  "permalink": "/id-verification/identity/🇰🇪 kenya/phone",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "title": "Phone Number Verification",
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tax PIN Verification",
+    "permalink": "/id-verification/identity/🇰🇪 kenya/tax-pin"
+  },
+  "next": {
+    "title": "Address Verification",
+    "permalink": "/id-verification/identity/🇰🇪 kenya/address"
+  }
+}

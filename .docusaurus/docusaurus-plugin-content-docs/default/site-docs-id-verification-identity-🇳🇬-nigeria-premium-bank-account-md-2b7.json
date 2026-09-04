@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇳🇬 nigeria/premium-bank-account",
+  "title": "Premium Bank Account Verification",
+  "description": "Premium Bank Account Verification",
+  "source": "@site/docs/id-verification/identity/🇳🇬 nigeria/premium-bank-account.md",
+  "sourceDirName": "id-verification/identity/🇳🇬 nigeria",
+  "slug": "/id-verification/identity/🇳🇬 nigeria/premium-bank-account",
+  "permalink": "/id-verification/identity/🇳🇬 nigeria/premium-bank-account",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 16,
+  "frontMatter": {
+    "title": "Premium Bank Account Verification",
+    "sidebar_position": 16
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Premium Bank List",
+    "permalink": "/id-verification/identity/🇳🇬 nigeria/premium-bank-list"
+  },
+  "next": {
+    "title": "SAID Verification",
+    "permalink": "/id-verification/identity/🇿🇦 south africa/said"
+  }
+}
