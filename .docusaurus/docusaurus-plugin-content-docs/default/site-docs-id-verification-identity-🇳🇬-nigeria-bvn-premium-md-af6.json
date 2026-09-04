@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇳🇬 nigeria/bvn-premium",
+  "title": "BVN Premium Verification",
+  "description": "BVN Premium Verification",
+  "source": "@site/docs/id-verification/identity/🇳🇬 nigeria/bvn-premium.md",
+  "sourceDirName": "id-verification/identity/🇳🇬 nigeria",
+  "slug": "/id-verification/identity/🇳🇬 nigeria/bvn-premium",
+  "permalink": "/id-verification/identity/🇳🇬 nigeria/bvn-premium",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "BVN Premium Verification",
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "NIN Verification",
+    "permalink": "/id-verification/identity/🇳🇬 nigeria/nin"
+  },
+  "next": {
+    "title": "Driver's Licence Verification",
+    "permalink": "/id-verification/identity/🇳🇬 nigeria/drivers-license"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇰🇪 kenya/vehicle-collateral",
+  "title": "Vehicle Collateral Verification",
+  "description": "Vehicle Collateral Verification",
+  "source": "@site/docs/id-verification/identity/🇰🇪 kenya/vehicle-collateral.md",
+  "sourceDirName": "id-verification/identity/🇰🇪 kenya",
+  "slug": "/id-verification/identity/🇰🇪 kenya/vehicle-collateral",
+  "permalink": "/id-verification/identity/🇰🇪 kenya/vehicle-collateral",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "title": "Vehicle Collateral Verification",
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Plate Number Verification",
+    "permalink": "/id-verification/identity/🇰🇪 kenya/plate-number"
+  },
+  "next": {
+    "title": "Bank List",
+    "permalink": "/id-verification/identity/🇰🇪 kenya/bank-list"
+  }
+}

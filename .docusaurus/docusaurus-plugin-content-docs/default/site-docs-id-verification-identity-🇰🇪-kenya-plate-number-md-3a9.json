@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇰🇪 kenya/plate-number",
+  "title": "Plate Number Verification",
+  "description": "Plate Number Verification",
+  "source": "@site/docs/id-verification/identity/🇰🇪 kenya/plate-number.md",
+  "sourceDirName": "id-verification/identity/🇰🇪 kenya",
+  "slug": "/id-verification/identity/🇰🇪 kenya/plate-number",
+  "permalink": "/id-verification/identity/🇰🇪 kenya/plate-number",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "title": "Plate Number Verification",
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Address Verification",
+    "permalink": "/id-verification/identity/🇰🇪 kenya/address"
+  },
+  "next": {
+    "title": "Vehicle Collateral Verification",
+    "permalink": "/id-verification/identity/🇰🇪 kenya/vehicle-collateral"
+  }
+}

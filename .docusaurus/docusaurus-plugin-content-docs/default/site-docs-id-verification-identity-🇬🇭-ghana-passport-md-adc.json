@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇬🇭 ghana/passport",
+  "title": "Passport Verification",
+  "description": "Passport Verification",
+  "source": "@site/docs/id-verification/identity/🇬🇭 ghana/passport.md",
+  "sourceDirName": "id-verification/identity/🇬🇭 ghana",
+  "slug": "/id-verification/identity/🇬🇭 ghana/passport",
+  "permalink": "/id-verification/identity/🇬🇭 ghana/passport",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Passport Verification",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Residence Card Verification",
+    "permalink": "/id-verification/identity/🇨🇮 côte d'ivoire/residence-card"
+  },
+  "next": {
+    "title": "SSNIT Verification",
+    "permalink": "/id-verification/identity/🇬🇭 ghana/ssnit"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇳🇬 nigeria/individual-tax-id",
+  "title": "Individual Tax ID Verification",
+  "description": "Individual Tax ID Verification",
+  "source": "@site/docs/id-verification/identity/🇳🇬 nigeria/individual-tax-id.md",
+  "sourceDirName": "id-verification/identity/🇳🇬 nigeria",
+  "slug": "/id-verification/identity/🇳🇬 nigeria/individual-tax-id",
+  "permalink": "/id-verification/identity/🇳🇬 nigeria/individual-tax-id",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "title": "Individual Tax ID Verification",
+    "sidebar_position": 11
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced Phone Search",
+    "permalink": "/id-verification/identity/🇳🇬 nigeria/advanced-phone-search"
+  },
+  "next": {
+    "title": "Individual Credit Report",
+    "permalink": "/id-verification/identity/🇳🇬 nigeria/individual-credit-report"
+  }
+}

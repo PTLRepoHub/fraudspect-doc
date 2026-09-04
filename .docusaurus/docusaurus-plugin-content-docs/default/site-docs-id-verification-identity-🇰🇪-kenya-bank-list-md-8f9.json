@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇰🇪 kenya/bank-list",
+  "title": "Bank List",
+  "description": "Bank List",
+  "source": "@site/docs/id-verification/identity/🇰🇪 kenya/bank-list.md",
+  "sourceDirName": "id-verification/identity/🇰🇪 kenya",
+  "slug": "/id-verification/identity/🇰🇪 kenya/bank-list",
+  "permalink": "/id-verification/identity/🇰🇪 kenya/bank-list",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "title": "Bank List",
+    "sidebar_position": 11
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Vehicle Collateral Verification",
+    "permalink": "/id-verification/identity/🇰🇪 kenya/vehicle-collateral"
+  },
+  "next": {
+    "title": "Bank Account Verification",
+    "permalink": "/id-verification/identity/🇰🇪 kenya/bank-account"
+  }
+}

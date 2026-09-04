@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇰🇪 kenya/address",
+  "title": "Address Verification",
+  "description": "Address Verification",
+  "source": "@site/docs/id-verification/identity/🇰🇪 kenya/address.md",
+  "sourceDirName": "id-verification/identity/🇰🇪 kenya",
+  "slug": "/id-verification/identity/🇰🇪 kenya/address",
+  "permalink": "/id-verification/identity/🇰🇪 kenya/address",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "title": "Address Verification",
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Phone Number Verification",
+    "permalink": "/id-verification/identity/🇰🇪 kenya/phone"
+  },
+  "next": {
+    "title": "Plate Number Verification",
+    "permalink": "/id-verification/identity/🇰🇪 kenya/plate-number"
+  }
+}

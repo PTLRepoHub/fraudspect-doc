@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇰🇪 kenya/identity-number",
+  "title": "Identity Number Verification",
+  "description": "Identity Number Verification",
+  "source": "@site/docs/id-verification/identity/🇰🇪 kenya/identity-number.md",
+  "sourceDirName": "id-verification/identity/🇰🇪 kenya",
+  "slug": "/id-verification/identity/🇰🇪 kenya/identity-number",
+  "permalink": "/id-verification/identity/🇰🇪 kenya/identity-number",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Identity Number Verification",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Driver's Licence Verification",
+    "permalink": "/id-verification/identity/🇰🇪 kenya/drivers-license"
+  },
+  "next": {
+    "title": "Tax PIN Verification",
+    "permalink": "/id-verification/identity/🇰🇪 kenya/tax-pin"
+  }
+}

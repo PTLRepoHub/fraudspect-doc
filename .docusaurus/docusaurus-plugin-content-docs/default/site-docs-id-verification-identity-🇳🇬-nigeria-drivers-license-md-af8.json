@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇳🇬 nigeria/drivers-license",
+  "title": "Driver's Licence Verification",
+  "description": "Driver's Licence Verification",
+  "source": "@site/docs/id-verification/identity/🇳🇬 nigeria/drivers-license.md",
+  "sourceDirName": "id-verification/identity/🇳🇬 nigeria",
+  "slug": "/id-verification/identity/🇳🇬 nigeria/drivers-license",
+  "permalink": "/id-verification/identity/🇳🇬 nigeria/drivers-license",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "title": "Driver's Licence Verification",
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "BVN Premium Verification",
+    "permalink": "/id-verification/identity/🇳🇬 nigeria/bvn-premium"
+  },
+  "next": {
+    "title": "Voter's Card (PVC) Verification",
+    "permalink": "/id-verification/identity/🇳🇬 nigeria/voters-card"
+  }
+}

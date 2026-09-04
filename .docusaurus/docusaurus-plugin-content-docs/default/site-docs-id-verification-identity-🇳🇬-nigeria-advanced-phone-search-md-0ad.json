@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇳🇬 nigeria/advanced-phone-search",
+  "title": "Advanced Phone Search",
+  "description": "Advanced Phone Search",
+  "source": "@site/docs/id-verification/identity/🇳🇬 nigeria/advanced-phone-search.md",
+  "sourceDirName": "id-verification/identity/🇳🇬 nigeria",
+  "slug": "/id-verification/identity/🇳🇬 nigeria/advanced-phone-search",
+  "permalink": "/id-verification/identity/🇳🇬 nigeria/advanced-phone-search",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "title": "Advanced Phone Search",
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Phone Number Verification",
+    "permalink": "/id-verification/identity/🇳🇬 nigeria/phone"
+  },
+  "next": {
+    "title": "Individual Tax ID Verification",
+    "permalink": "/id-verification/identity/🇳🇬 nigeria/individual-tax-id"
+  }
+}

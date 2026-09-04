@@ -1,0 +1,27 @@
+{
+  "id": "id-verification/identity/🇬🇭 ghana/voters-card",
+  "title": "Voter's Card Verification",
+  "description": "Voter's Card Verification",
+  "source": "@site/docs/id-verification/identity/🇬🇭 ghana/voters-card.md",
+  "sourceDirName": "id-verification/identity/🇬🇭 ghana",
+  "slug": "/id-verification/identity/🇬🇭 ghana/voters-card",
+  "permalink": "/id-verification/identity/🇬🇭 ghana/voters-card",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Voter's Card Verification",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SSNIT Verification",
+    "permalink": "/id-verification/identity/🇬🇭 ghana/ssnit"
+  },
+  "next": {
+    "title": "National ID Verification",
+    "permalink": "/id-verification/identity/🇰🇪 kenya/national-id"
+  }
+}
