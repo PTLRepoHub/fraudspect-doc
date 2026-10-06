@@ -1,6 +1,85 @@
 ---
 title: Machine Learning
-description: ML-based transaction scoring and AML graph scanning.
+description: How Fraudspect uses machine learning to score transactions for unusual behavior.
 sidebar_label: Machine Learning
 sidebar_position: 6
 ---
+
+# Machine Learning in Transaction Monitoring
+
+Machine Learning (ML) monitoring provides an adaptive layer of defense on top of static compliance rules. While traditional rules evaluate transactions against fixed thresholds (such as single-transaction limits or daily velocity caps), Fraudspect's Machine Learning models evaluate each transaction against the **customer’s personal historical baseline** and **platform-wide behavioral patterns** in real time.
+
+This allows compliance and fraud teams to detect novel, evasive fraud patterns such as account takeovers, sudden volume spikes, and unusual behavioral shifts even when the transaction technically stays within static rule limits.
+
+---
+
+## How Machine Learning Monitoring Works
+
+Every time a transaction is processed, Fraudspect automatically triggers an ML risk assessment in the background:
+
+1. **Customer Baseline Construction**: Fraudspect analyzes the customer's prior transaction history to establish normal spending habits, typical hours of activity, frequent locations, and standard delivery channels.
+2. **Anomaly Detection**: Fraudspect measures how far the current transaction deviates from both the customer's personal profile and platform benchmarks.
+3. **Behavioral Drift Tracking**: Fraudspect tracks transactions over time to detect gradual escalation (for example, an attacker testing small amounts before draining an account).
+4. **Plain-Language Explanations**: Fraudspect shows the factors behind each score in words your compliance team can read.
+
+---
+
+## What Gets Evaluated?
+
+Fraudspect's ML models assess multiple behavioral dimensions simultaneously:
+
+| Behavioral Dimension | What the Model Checks |
+| :--- | :--- |
+| **Amount Deviation** | How much higher or lower the transaction is compared to the customer's historical average and typical transaction size. |
+| **Transaction Velocity** | Sudden spikes in transaction count or cumulative spend over short rolling windows (e.g. 10 minutes, 1 hour). |
+| **Temporal Patterns** | Transactions occurring at unusual times of day or unfamiliar days of the week relative to the customer’s usual routine. |
+| **Geographic Dispersion** | Distance between the current transaction location and the customer's primary geographic activity cluster. |
+| **Device & Channel Novelty** | Transactions initiated from unrecognized devices, unfamiliar hardware fingerprints, or unusual channels. |
+
+---
+
+## Understanding the Anomaly Score
+
+Fraudspect expresses the ML assessment as an **Anomaly Score percentage (0% to 100%)** alongside a qualitative risk tier:
+
+| Anomaly Score | Risk Level | Interpretation & Recommended Action |
+| :--- | :--- | :--- |
+| **70% – 100%** | **High Risk** | **Significant behavioral anomaly.** The transaction strongly deviates from established customer behavior across multiple indicators (e.g., massive amount jump combined with an unfamiliar location and new device). <br/>*Recommended Action:* Place on hold, trigger step-up authentication (2FA), or route directly to senior compliance review. |
+| **50% – 69%** | **Medium Risk** | **Moderate behavioral divergence.** The transaction exhibits unusual characteristics (e.g., transaction amount is noticeably higher than usual, or made during off-hours) but does not meet full high-risk criteria. <br/>*Recommended Action:* Allow transaction or flag for post-settlement analyst review. |
+| **0% – 49%** | **Low Risk** | **Normal, expected activity.** The transaction aligns well with the customer's historical spending habits and standard platform activity. <br/>*Recommended Action:* Automatically approved / proceed through normal workflows. |
+
+:::note Configurable Thresholds
+These score boundaries represent Fraudspect's standard defaults (`70%` for High Risk, `50%` for Medium Risk). Organizations can fine-tune these cutoffs to match their institutional risk tolerance and regulatory operating standards.
+:::
+
+---
+
+## Risk-Driving Factors & Explanations
+
+In the transaction details view under **ML Risk Analysis**, Fraudspect displays the top factors that contributed to the score. 
+
+Instead of showing complex statistical variables, each factor is presented with a clear label, risk direction, and plain-language explanation:
+
+* **Amount to Average Ratio**: *"Transaction amount is 4.5x higher than customer's historical average."*
+* **Geographic Distance**: *"Transaction initiated 420 km away from the customer's usual transaction cluster."*
+* **Time of Day**: *"Customer transacted at an unusual time compared to their historical habits."*
+* **Device Novelty**: *"Transaction initiated from an unrecognized device fingerprint."*
+
+This allows compliance officers to immediately understand *why* an alert was generated without needing data science expertise.
+
+---
+
+## Handling New Customers (Baseline / Cold Start)
+
+For newly registered customers who have not yet built an extensive transaction history:
+* Fraudspect automatically evaluates them against platform-level peer baselines.
+* In the dashboard, a clear notice indicates: *"This customer has not made enough transactions yet, so they were evaluated using baseline metrics."*
+* As the customer conducts more transactions, their personal behavioral baseline dynamically updates, making scoring increasingly personalized over time.
+
+---
+
+## Sequential Behavioral Drift (Account Takeover Defense)
+
+Fraudsters often attempt to bypass static threshold rules by gradually escalating amounts over time (e.g., making three small purchases before attempting a large transfer).
+
+Fraudspect monitors the cumulative change across consecutive transactions. If a customer's spending drifts quickly away from their usual pattern, Fraudspect flags **Active Behavioral Drift**, so your team can step in before significant funds are lost.
