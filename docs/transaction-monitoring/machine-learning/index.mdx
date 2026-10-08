@@ -1,0 +1,102 @@
+---
+title: Machine Learning
+description: How Fraudspect spots unusual transactions by learning what is normal for each customer.
+sidebar_label: Machine Learning
+sidebar_position: 6
+---
+
+# Machine Learning in Transaction Monitoring
+
+Fraudspect learns what "normal" looks like for each of your customers, then flags transactions that don't fit.
+
+Standard rules check transactions against fixed limits, such as a maximum amount per transaction or per day. Machine learning adds a second check. It asks a simple question: **does this transaction look like something this customer would normally do?**
+
+This helps you catch fraud that stays under your rule limits, such as a hijacked account, a sudden burst of activity, or a customer whose behavior suddenly changes.
+
+---
+
+## How It Works
+
+Every time a transaction is processed, Fraudspect automatically checks it in the background:
+
+1. **Learns what's normal.** Fraudspect looks at the customer's past transactions to understand their usual spending, the times they are usually active, where they usually transact, and how they usually pay.
+2. **Spots what's different.** It compares the new transaction to that usual pattern and to what is typical across the platform.
+3. **Watches for slow build-ups.** It looks at transactions over time, so it can notice when a customer's activity is gradually changing.
+4. **Explains the result.** It gives you the reasons behind each score in plain words.
+
+---
+
+## What Fraudspect Looks At
+
+| What we check | What it means |
+| :--- | :--- |
+| **Amount** | Is this much larger or smaller than the customer usually spends? |
+| **Frequency** | Is the customer making more transactions than usual in the last 24 hours? |
+| **Recipient** | Is the money going to someone this customer hasn't paid before? |
+| **Timing** | Is this happening at an odd hour or on an unusual day for this customer? |
+| **Location** | Is this far from where the customer normally transacts? |
+| **Device and channel** | Is the customer using a device or method we haven't seen before? |
+
+---
+
+## The Risk Score
+
+Each transaction gets a score from **0% to 100%**. The higher the score, the more unusual the transaction.
+
+| Score | Risk level | What it means | Suggested action |
+| :--- | :--- | :--- | :--- |
+| **70% – 100%** | **High** | Very unusual. Several things look wrong at once, for example a much larger amount, from a new place, on a new device. | Hold the transaction, ask the customer to verify it's them, or send it to a senior reviewer. |
+| **50% – 69%** | **Medium** | Somewhat unusual. For example, a larger amount than normal or an odd time of day, but not enough to be a serious concern. | Let it go through, or flag it for an analyst to review later. |
+| **0% – 49%** | **Low** | Looks normal for this customer. | Approve automatically. |
+
+:::note You can change these cut-offs
+The score ranges above are Fraudspect's defaults (70% for High, 50% for Medium). You can adjust them to match how much risk your organization is comfortable with.
+:::
+
+---
+
+## Understanding Why a Transaction Was Flagged
+
+Open a transaction and look under **ML Risk Analysis**. You will see the main reasons behind the score, each written in plain language. For example:
+
+* **Amount:** "Transaction amount is 4.5x higher than the customer's usual spending."
+* **Location:** "Transaction was made 420 km from where the customer usually transacts."
+* **Time:** "Customer transacted at an unusual time compared to their usual habits."
+* **Device:** "Transaction was made from a device we haven't seen before."
+
+You can see why an alert was raised without any data science knowledge.
+
+---
+
+## New Customers
+
+A new customer doesn't have enough history for Fraudspect to learn their habits yet (fewer than 3 past transactions). In that case:
+
+* Fraudspect compares them to typical customers on the platform instead.
+* The dashboard shows this notice: *"This customer has not made enough transactions yet, so they were evaluated using baseline metrics."*
+* As the customer makes more transactions, scoring becomes more personal and more accurate.
+
+---
+
+## Catching Account Takeovers
+
+Fraudsters often avoid fixed limits by starting small and building up. For example, they may make a few small purchases before trying a large transfer.
+
+Fraudspect watches how a customer's activity changes across a series of transactions. If it moves quickly away from their usual pattern, Fraudspect flags it as **Active Behavioral Drift**, so your team can step in before significant money is lost.
+
+---
+
+## Spotting Money Laundering Networks
+
+The checks above look at one customer at a time. Money laundering often involves **several accounts working together**, so each transaction can look harmless on its own.
+
+To catch this, Fraudspect also looks at how money moves *between* accounts and flags suspicious patterns. Each one is raised as a case for your team to review, with a confidence level and a map of the accounts involved.
+
+| Pattern | What it looks like | Why it's suspicious |
+| :--- | :--- | :--- |
+| **Pass-through chain** | Money moves from account A to B to C to D, with each account passing on almost all of it within a day. | The money is being moved along to hide where it came from. |
+| **Round trip** | Money leaves an account, passes through a few others, and ends up back where it started. | Legitimate payments rarely go in a circle. |
+| **Many into one** | Four or more different accounts send money to the same account within a day. | The account may be collecting money from many sources. |
+| **One into many** | One account sends several small amounts to four or more different accounts within a day, kept under reporting limits. | The amounts are split up to avoid attention. |
+
+Fraudspect gives each case a confidence level so your team can review the most likely ones first.
