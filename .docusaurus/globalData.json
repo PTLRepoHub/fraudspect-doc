@@ -186,6 +186,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "id-verification/identity/🇳🇬 nigeria/business-tax-id",
+              "path": "/id-verification/identity/🇳🇬 nigeria/business-tax-id",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "id-verification/identity/🇳🇬 nigeria/business-verification",
               "path": "/id-verification/identity/🇳🇬 nigeria/business-verification",
               "sidebar": "tutorialSidebar"
@@ -343,6 +348,11 @@
             {
               "id": "transaction-monitoring/index",
               "path": "/transaction-monitoring/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "transaction-monitoring/machine-learning/index",
+              "path": "/transaction-monitoring/machine-learning/",
               "sidebar": "tutorialSidebar"
             },
             {

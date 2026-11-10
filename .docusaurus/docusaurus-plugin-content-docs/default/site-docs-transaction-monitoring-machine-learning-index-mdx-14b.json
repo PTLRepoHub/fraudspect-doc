@@ -1,0 +1,29 @@
+{
+  "id": "transaction-monitoring/machine-learning/index",
+  "title": "Machine Learning",
+  "description": "How Fraudspect uses machine learning to spot unusual transactions and to rate how risky each customer is.",
+  "source": "@site/docs/transaction-monitoring/machine-learning/index.mdx",
+  "sourceDirName": "transaction-monitoring/machine-learning",
+  "slug": "/transaction-monitoring/machine-learning/",
+  "permalink": "/transaction-monitoring/machine-learning/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "Machine Learning",
+    "description": "How Fraudspect uses machine learning to spot unusual transactions and to rate how risky each customer is.",
+    "sidebar_label": "Machine Learning",
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AML Screening",
+    "permalink": "/transaction-monitoring/aml-screening"
+  },
+  "next": {
+    "title": "Screening",
+    "permalink": "/screening/"
+  }
+}

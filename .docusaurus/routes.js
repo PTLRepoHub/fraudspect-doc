@@ -9,15 +9,15 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'a0f'),
+    component: ComponentCreator('/', '795'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '415'),
+        component: ComponentCreator('/', 'edf'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', '602'),
+            component: ComponentCreator('/', '15e'),
             routes: [
               {
                 path: '/id-verification',
@@ -242,6 +242,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/id-verification/identity/🇳🇬 nigeria/business-tax-id',
+                component: ComponentCreator('/id-verification/identity/🇳🇬 nigeria/business-tax-id', '3c4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/id-verification/identity/🇳🇬 nigeria/business-verification',
                 component: ComponentCreator('/id-verification/identity/🇳🇬 nigeria/business-verification', '2ff'),
                 exact: true,
@@ -412,6 +418,12 @@ export default [
               {
                 path: '/transaction-monitoring/customer/get-customer',
                 component: ComponentCreator('/transaction-monitoring/customer/get-customer', '590'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/transaction-monitoring/machine-learning',
+                component: ComponentCreator('/transaction-monitoring/machine-learning', 'f78'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

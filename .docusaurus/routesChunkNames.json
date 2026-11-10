@@ -6,17 +6,17 @@
     },
     "content": "393be207"
   },
-  "/-a0f": {
+  "/-795": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/-415": {
+  "/-edf": {
     "__comp": "a7bd4aaa",
     "__props": "22dd74f7"
   },
-  "/-602": {
+  "/-15e": {
     "__comp": "a94703ab"
   },
   "/id-verification-1f1": {
@@ -167,6 +167,10 @@
     "__comp": "17896441",
     "content": "2ccc3460"
   },
+  "/id-verification/identity/🇳🇬 nigeria/business-tax-id-3c4": {
+    "__comp": "17896441",
+    "content": "515ab579"
+  },
   "/id-verification/identity/🇳🇬 nigeria/business-verification-2ff": {
     "__comp": "17896441",
     "content": "39f931c4"
@@ -282,6 +286,10 @@
   "/transaction-monitoring/customer/get-customer-590": {
     "__comp": "17896441",
     "content": "db99cd74"
+  },
+  "/transaction-monitoring/machine-learning-f78": {
+    "__comp": "17896441",
+    "content": "14b1ba12"
   },
   "/transaction-monitoring/report-393": {
     "__comp": "17896441",

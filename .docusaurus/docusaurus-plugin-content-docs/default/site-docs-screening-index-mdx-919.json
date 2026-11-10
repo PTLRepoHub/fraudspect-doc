@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "AML Screening",
-    "permalink": "/transaction-monitoring/aml-screening"
+    "title": "Machine Learning",
+    "permalink": "/transaction-monitoring/machine-learning/"
   },
   "next": {
     "title": "PEP & Sanction Screening",
